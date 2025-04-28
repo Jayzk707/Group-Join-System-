@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+		
+		<div class="layui-form-item">
+            <label class="layui-form-label">上级导航</label>
+            <div class="layui-input-block">
+				<select name="snsid" id="snsid">
+					<option value="0" {if $info.sns_id ==0}selected{/if}> === 顶级导航 === </option>
+					{volist name="list" id="vo"}
+						<option value="{$vo.ns_id}" {if $info.sns_id == $vo.ns_id}selected{/if}>{$vo.ns_title}</option>
+					{/volist}
+				</select>
+            </div>
+          </div> 
+		
+		
+        <div class="layui-form-item">
+            <label class="layui-form-label">导航名称</label>
+            <div class="layui-input-block">
+              <input name="title" type="text" class="layui-input" id="title"   placeholder="导航名称" value="{$info.ns_title}">
+            </div>
+          </div>
+		  
+		  <div class="layui-form-item">
+            <label class="layui-form-label">图标</label>
+            <div class="layui-input-block">
+              <input name="icon" type="text" class="layui-input" id="icon"   placeholder="图标" value="{$info.ns_icon}">
+            </div>
+          </div> 
+		  
+		  <div class="layui-form-item">
+            <label class="layui-form-label">排序</label>
+            <div class="layui-input-block">
+              <input name="sort" type="number" class="layui-input" id="sort"   placeholder="排序,默认999" value="{$info.ns_sort}">
+            </div>
+          </div>
+		  
+		  <div class="layui-form-item">
+            <label class="layui-form-label">控制器</label>
+            <div class="layui-input-block">
+              <input name="controller" type="text" class="layui-input" id="controller"   placeholder="控制器" value="{$info.ns_controller}">
+            </div>
+          </div> 
+		  
+		  <div class="layui-form-item">
+            <label class="layui-form-label">方法</label>
+            <div class="layui-input-block">
+              <input name="method" type="text" class="layui-input" id="method"   placeholder="方法" value="{$info.ns_method}">
+            </div>
+          </div> 
+		  
+          <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+              <input type="radio" name="status" value="1" title="启用" {if $info.ns_status==1}checked=""{/if}>
+              <input type="radio" name="status" value="2" title="禁用" {if $info.ns_status==2}checked=""{/if}>
+            </div>
+          </div>       
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	var snsid      = $("#snsid").val();
+	var title      = $("#title").val();
+	var icon       = $("#icon").val();
+	var _sort       = $("#sort").val();
+	var controller = $("#controller").val();
+	var method     = $("#method").val();
+	var status     = $("input[name='status']:checked").val();
+	
+	if(title==""){
+		show_error("导航名称不能为空!");
+		return false;
+	}
+
+	if(controller==""){
+		show_error("控制器不能为空!");
+		return false;
+	}
+
+	if(method==""){
+		show_error("方法不能为空!");
+		return false;
+	}
+
+	$.ajax({
+		type:"POST",
+		url:"{:url('navigat/edit')}",
+		dataType:"json",
+		data:{
+			id:"{$info.ns_id}",
+			snsid:snsid,
+			title:title,
+			icon:icon,
+			_sort:_sort,
+			controller:controller,
+			method:method,
+			status:status,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

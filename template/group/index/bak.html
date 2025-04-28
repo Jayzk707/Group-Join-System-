@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width,height=device-height, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="format-detection" content="telephone=no" />
+		<title>{$info.wxg_title}</title>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+		<link type="text/css" rel="stylesheet" href="/template/group/index/css.css"/>
+
+	</head>
+	<body>
+	<style>
+.box{
+ width: 100%;
+ margin: 50px auto;
+}
+.img-box{
+ width: 100%;
+ position:relative;
+ z-index:1;
+}
+.img-box img{
+ position:absolute;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+ width:100%;
+ margin:auto;
+ z-index: -1;
+ *zoom:1;
+}
+.img-box:before {
+ content: "";
+ display: inline-block;
+ padding-bottom: 100%;
+ width: 0.1px; /*必须要有数值，否则无法把高度撑起来*/
+ vertical-align: middle;
+}
+	</style>
+<div class="box">
+ <div class="img-box"><img src="{$info.wxg_adurl}"></div>
+</div>
+    <script>
+        var titles = "{$info.wxg_title}";
+        var citycode =returnCitySN.cname;
+        titles = titles.replace("【本地】",citycode)
+        $("#quntit").html(titles);
+        $("title").html(titles);
+    </script>
+	</body>
+</html>

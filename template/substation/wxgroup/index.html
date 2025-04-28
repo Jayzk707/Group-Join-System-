@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+			<div class="layui-form" lay-filter="component-form-element">
+			    
+          	<div class="layui-box">
+          		<div class="layui-inline"><input type="text" name="scontent" id="scontent" placeholder="请输入群组名称" value="{$s}" class="layui-input"></div>
+          		<div class="layui-inline">
+            		<button class="layui-btn layuiadmin-btn-admin" lay-submit lay-filter="LAY-user-back-search" data-type="indexsearch"><i class="layui-icon layui-icon-search layuiadmin-button-btn"></i></button>
+          		</div>
+          		{if !empty($webinfo.text1)}<a class="layui-btn layuiadmin-btn-tags" href="{$webinfo.text1}" target="_blank">功能说明</a>{/if}
+
+
+         	</div>
+         	
+            <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+                <th>状态</th>
+                <th>所属分销</th>
+                <th>群名称</th>
+                <th>订单数</th>
+                <th>曝光量</th>
+                <th>转化率</th>
+                <th>入群金额</th>
+                <th>总收款</th>
+                <th>总赢利</th>
+                <th>备注</th>
+                <th>管理</th>
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.wxg_id}">
+					<td class="text-center">{$vo.wxg_id}</td>
+                    <td>
+                    {if $vo.wxg_status==1}<span class="layui-badge layui-bg-blue">启用</span>
+                    {elseif $vo.wxg_status==2}<span class="layui-badge layui-bg-black">禁用</span>{/if}
+                    </td>
+                    <td><span class="layui-badge-rim">{$vo.du_name}（{$vo.du_smname}）</span></td>
+                    <td><span class="layui-badge-rim">{$vo.wxg_title}</span></td>
+                    <td>{$vo.count_ddx}</td>
+                    <td>{$vo.wxg_readcount} 次</td>
+                    <td>{$vo.count_ddx/ $vo.wxg_readcount * 100|round=###,2}%</td>
+                    <td>{$vo.wxg_money} 元</td>
+                    <td>{$vo.count_z_money|round=###,2} 元</td>
+                    <td>{$vo.count_p_money|round=###,2} 元</td>
+                    <td>{$vo.wxg_content}</td>
+                    <td>
+							<div class="layui-btn-group">
+								<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('wxgroup/del',array('id'=>$vo.wxg_id))}','tr_{$vo.wxg_id}')"><i class="layui-icon">&#xe640;</i></button>
+							</div>
+                    </td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+          <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+		  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+
+
+
+	  indexsearch: function(){
+		var scontent = $("#scontent").val();
+		if(scontent==""){
+		    var url = "{:url('wxgroup/index')}";
+		}else{
+		    var url = "{:url('wxgroup/index',array('s'=>'AAAAA'))}";
+		    url = url.replace("AAAAA", scontent);
+		}
+		window.location = url;
+	  },
+
+	 
+	  add: function(){
+		var id = $(this).data('id');
+		var url = '{:url('wxgroup/add')}';
+        layer.open({
+          type: 2
+          ,title: '添加群组'
+          ,content: url
+          ,area: ['550px', '290px']
+        }); 
+      },
+	 
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

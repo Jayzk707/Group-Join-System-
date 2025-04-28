@@ -1,0 +1,1337 @@
+---------------------------------------------------------------
+[ 2023-03-16T00:53:57+08:00 ] 182.240.87.81 GET aaa.720vrcloud.net/group.php/index/index/id/53.html
+[运行时间：0.022043s] [吞吐率：45.37req/s] [内存消耗：499.71kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'qzhw-request-key' => 'E2CD0E62-D9D6-4C32-8E5A-D29B309310F4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'qzhw-wnshtml-webviewsupport' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'qq_locale_id=2052',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H307 QQ/8.9.28.635 V1_IPH_SQ_8.9.28_1_APP_A Pixel/1080 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537146892 Core/WKWebView Device/Apple(iPhone 7Plus) NetType/WIFI QBWebViewType/1 WKType/1',
+  'webso-cache-load-time' => '1678899267257',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '53',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004789s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 53 ) LIMIT 1 [ RunTime:0.000988s ]
+---------------------------------------------------------------
+[ 2023-03-16T00:53:57+08:00 ] 182.240.87.81 GET aaa.720vrcloud.net/group.php/index/turl/id/53.html
+[运行时间：0.030674s] [吞吐率：32.60req/s] [内存消耗：556.22kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'qq_locale_id=2052',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H307 QQ/8.9.28.635 V1_IPH_SQ_8.9.28_1_APP_A Pixel/1080 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537146892 Core/WKWebView Device/Apple(iPhone 7Plus) NetType/WIFI QBWebViewType/1 WKType/1',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/53.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '53',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004203s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 53 ) LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.003078s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 14 ) LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.003194s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.003155s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 11 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2023-03-16T00:53:58+08:00 ] 182.240.87.81 GET aaa.720vrcloud.net/group.php/index/share/id/53/t/0363465debf91096e77b2543df5cad54/time/1678899237.html
+[运行时间：0.024358s] [吞吐率：41.05req/s] [内存消耗：582.02kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'cookie' => 'qq_locale_id=2052',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H307 QQ/8.9.28.635 V1_IPH_SQ_8.9.28_1_APP_A Pixel/1080 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537146892 Core/WKWebView Device/Apple(iPhone 7Plus) NetType/WIFI QBWebViewType/1 WKType/1',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/53.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '53',
+  't' => '0363465debf91096e77b2543df5cad54',
+  'time' => '1678899237',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004013s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 53 ) LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=864  WHERE  (  wxg_id = 53 ) [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2023-03-16T00:54:59+08:00 ] 180.163.28.109 GET aaa.720vrcloud.net/group.php/index/share/id/53/t/0363465debf91096e77b2543df5cad54/time/1678899237.html
+[运行时间：0.027511s] [吞吐率：36.35req/s] [内存消耗：580.34kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '53',
+  't' => '0363465debf91096e77b2543df5cad54',
+  'time' => '1678899237',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004818s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 53 ) LIMIT 1 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=865  WHERE  (  wxg_id = 53 ) [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2023-03-16T07:41:12+08:00 ] 223.104.19.65 GET aaa.720vrcloud.net/group.php/index/index/id/52.html
+[运行时间：0.023737s] [吞吐率：42.13req/s] [内存消耗：499.70kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001412s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.005250s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000982s ]
+---------------------------------------------------------------
+[ 2023-03-16T07:41:13+08:00 ] 223.104.19.65 GET aaa.720vrcloud.net/group.php/index/turl/id/52.html
+[运行时间：0.028131s] [吞吐率：35.55req/s] [内存消耗：556.59kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => '*/*',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003708s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.002985s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 17 ) LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.003028s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 11 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2023-03-16T07:41:14+08:00 ] 223.104.19.65 GET aaa.720vrcloud.net/group.php/index/share/id/52/t/1a9c8c3a5346b681391057ae296183ba/time/1678923673.html
+[运行时间：0.022746s] [吞吐率：43.96req/s] [内存消耗：582.89kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+  't' => '1a9c8c3a5346b681391057ae296183ba',
+  'time' => '1678923673',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003920s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=443  WHERE  (  wxg_id = 52 ) [ RunTime:0.000866s ]
+---------------------------------------------------------------
+[ 2023-03-16T07:41:14+08:00 ] 223.104.19.65 GET aaa.720vrcloud.net/favicon.ico
+[运行时间：0.008288s] [吞吐率：120.65req/s] [内存消耗：315.79kb] [文件加载：27]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T07:41:17+08:00 ] 223.104.19.65 GET aaa.720vrcloud.net/favicon.ico
+[运行时间：0.009006s] [吞吐率：111.04req/s] [内存消耗：233.27kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/share/id/52/t/1a9c8c3a5346b681391057ae296183ba/time/1678923673.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=upo8p4h0gql2jfflkj9jee7qv6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T07:42:14+08:00 ] 180.163.30.76 GET aaa.720vrcloud.net/group.php/index/share/id/52/t/1a9c8c3a5346b681391057ae296183ba/time/1678923673.html
+[运行时间：0.024350s] [吞吐率：41.07req/s] [内存消耗：580.51kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+  't' => '1a9c8c3a5346b681391057ae296183ba',
+  'time' => '1678923673',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004300s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000897s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=444  WHERE  (  wxg_id = 52 ) [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2023-03-16T12:20:42+08:00 ] 49.88.6.38 GET xiezhen1.720vrcloud.net/
+[运行时间：0.016100s] [吞吐率：62.11req/s] [内存消耗：363.09kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T13:27:50+08:00 ] 223.104.19.73 GET aaa.720vrcloud.net/group.php/index/index/id/52.html
+[运行时间：0.021911s] [吞吐率：45.64req/s] [内存消耗：499.94kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ngffmd6ni69l1v6o4pl0275bd1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001206s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004866s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000983s ]
+---------------------------------------------------------------
+[ 2023-03-16T13:27:50+08:00 ] 223.104.19.73 GET aaa.720vrcloud.net/group.php/index/turl/id/52.html
+[运行时间：0.031488s] [吞吐率：31.76req/s] [内存消耗：556.84kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => '*/*',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ngffmd6ni69l1v6o4pl0275bd1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003842s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 17 ) LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.003166s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 11 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2023-03-16T13:27:50+08:00 ] 223.104.19.73 GET aaa.720vrcloud.net/favicon.ico
+[运行时间：0.010706s] [吞吐率：93.41req/s] [内存消耗：233.09kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ngffmd6ni69l1v6o4pl0275bd1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T13:27:51+08:00 ] 223.104.19.73 GET aaa.720vrcloud.net/group.php/index/share/id/52/t/e0ab25f4b9a8022d540459b804fd9a6f/time/1678944470.html
+[运行时间：0.023818s] [吞吐率：41.99req/s] [内存消耗：582.91kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PEMM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.102 MQQBrowser/6.2 TBS/046317 Mobile Safari/537.36 V1_AND_SQ_8.9.28_3700_YYB_D PA QQ/8.9.28.10155 NetType/4G WebP/0.3.0 AppId/537147633 Pixel/720 StatusBarHeight/65 SimpleUISwitch/0 QQTheme/1000 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0 GlobalDensityScale/0.9 AllowLandscape/false InMagicWin/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/wxpic,image/sharpp,image/apng,image/tpg,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://aaa.720vrcloud.net/group.php/index/index/id/52.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ngffmd6ni69l1v6o4pl0275bd1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+  't' => 'e0ab25f4b9a8022d540459b804fd9a6f',
+  'time' => '1678944470',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004080s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=445  WHERE  (  wxg_id = 52 ) [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2023-03-16T13:28:52+08:00 ] 180.163.30.100 GET aaa.720vrcloud.net/group.php/index/share/id/52/t/e0ab25f4b9a8022d540459b804fd9a6f/time/1678944470.html
+[运行时间：0.027456s] [吞吐率：36.42req/s] [内存消耗：580.88kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'aaa.720vrcloud.net',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+  't' => 'e0ab25f4b9a8022d540459b804fd9a6f',
+  'time' => '1678944470',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002980s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.004608s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=446  WHERE  (  wxg_id = 52 ) [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2023-03-16T15:23:43+08:00 ] 42.194.241.91 GET aaa.720vrcloud.net/group.php/index/share/id/53/t/0363465debf91096e77b2543df5cad54/time/1678899237.html
+[运行时间：0.028569s] [吞吐率：35.00req/s] [内存消耗：579.87kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'user-agent' => 'python-httpx/0.23.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '53',
+  't' => '0363465debf91096e77b2543df5cad54',
+  'time' => '1678899237',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.005039s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 53 ) LIMIT 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=866  WHERE  (  wxg_id = 53 ) [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2023-03-16T19:45:23+08:00 ] 42.187.206.2 GET aaa.720vrcloud.net/group.php/index/share/id/52/t/1a9c8c3a5346b681391057ae296183ba/time/1678923673.html
+[运行时间：0.028291s] [吞吐率：35.35req/s] [内存消耗：580.16kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aaa.720vrcloud.net',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'user-agent' => 'python-httpx/0.23.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+  't' => '1a9c8c3a5346b681391057ae296183ba',
+  'time' => '1678923673',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/xiezhen1.720vrcloud.net/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.005248s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 52 ) LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=447  WHERE  (  wxg_id = 52 ) [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:21:35+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php
+[运行时间：0.014988s] [吞吐率：66.72req/s] [内存消耗：356.86kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Index->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Index.php ]
+[ info ] [ VIEW ] template/fenxiao/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T20:21:35+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/favicon.ico
+[运行时间：0.011958s] [吞吐率：83.63req/s] [内存消耗：233.41kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T20:21:37+08:00 ] 117.92.150.150 POST xiezhen1.720vrcloud.net/fenxiao.php/index/login.html
+[运行时间：0.026198s] [吞吐率：38.17req/s] [内存消耗：741.05kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-length' => '36',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'https://xiezhen1.720vrcloud.net',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'username' => '19901538886',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\fenxiao\controller\Index->login[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.004885s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_name = '19901538886' and du_pass = '123456' ) LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.003090s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:21:37+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/center/index.html
+[运行时间：0.023065s] [吞吐率：43.36req/s] [内存消耗：733.67kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Center->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Center.php ]
+[ info ] [ VIEW ] template/fenxiao/center/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000882s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.003808s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:21:37+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/center/home.html
+[运行时间：0.028826s] [吞吐率：34.69req/s] [内存消耗：572.80kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Center->home[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/fenxiao/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'd_money_count',
+  2 => 'd_bill_count',
+  3 => 'z_money_count',
+  4 => 'z_bill_count',
+  5 => 'timg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.003846s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 ) LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 23 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-16 00:00:00' AND '2023-03-17 00:00:00' LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 23 and bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-03-16 00:00:00' AND '2023-03-17 00:00:00' LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-10 00:00:00' AND '2023-03-11 00:00:00' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-11 00:00:00' AND '2023-03-12 00:00:00' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-12 00:00:00' AND '2023-03-13 00:00:00' LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-13 00:00:00' AND '2023-03-14 00:00:00' LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-14 00:00:00' AND '2023-03-15 00:00:00' LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-15 00:00:00' AND '2023-03-16 00:00:00' LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 23 )  AND `bl_addtime` BETWEEN '2023-03-16 00:00:00' AND '2023-03-17 00:00:00' LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:21:39+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/index.html
+[运行时间：0.039350s] [吞吐率：25.41req/s] [内存消耗：823.25kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'distributiontixian',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Distributiontixian->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Distributiontixian.php ]
+[ info ] [ VIEW ] template/fenxiao/distributiontixian/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000907s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.004652s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.003603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_distribution_tixian` WHERE  (  du_id = 23 ) LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution_tixian` WHERE  (  du_id = 23 ) ORDER BY `dt_id` DESC LIMIT 0,20 [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:21:40+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/add.html
+[运行时间：0.026705s] [吞吐率：37.45req/s] [内存消耗：783.91kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'distributiontixian',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Distributiontixian->add[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Distributiontixian.php ]
+[ info ] [ VIEW ] template/fenxiao/distributiontixian/add.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.003737s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.002982s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 23 ) LIMIT 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:22:46+08:00 ] 117.92.150.150 POST xiezhen1.720vrcloud.net/fenxiao.php/upload/uploadface.html
+[运行时间：0.010959s] [吞吐率：91.25req/s] [内存消耗：311.47kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'upload',
+    2 => 'uploadface',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-length' => '124808',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOMLkn9R89oniRwnm',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'https://xiezhen1.720vrcloud.net',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Upload->uploadface[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-16T20:22:48+08:00 ] 117.92.150.150 POST xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/add.html
+[运行时间：0.033858s] [吞吐率：29.54req/s] [内存消耗：789.53kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'distributiontixian',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-length' => '53',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'sec-ch-ua-platform' => '"Windows"',
+  'origin' => 'https://xiezhen1.720vrcloud.net',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+)
+[ info ] [ PARAM ] array (
+  'money' => '34.65',
+  'dt_img' => '/upload/face/1678969366.jpeg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Distributiontixian->add[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Distributiontixian.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001373s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.004905s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.003031s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 23 ) LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 23 ) LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.003121s ]
+[ sql ] [ SQL ] INSERT INTO `web_distribution_tixian` (`su_id` , `du_id` , `dt_addtime` , `dt_money` , `dt_img`) VALUES (11 , 23 , '2023-03-16 20:22:48' , 34.65 , '/upload/face/1678969366.jpeg') [ RunTime:0.000807s ]
+[ sql ] [ SQL ] UPDATE `web_distribution`  SET `du_money`=0  WHERE  (  du_id = 23 ) [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:22:48+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/index.html
+[运行时间：0.028928s] [吞吐率：34.57req/s] [内存消耗：827.66kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'distributiontixian',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/distributiontixian/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Distributiontixian->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Distributiontixian.php ]
+[ info ] [ VIEW ] template/fenxiao/distributiontixian/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.003955s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.003066s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_distribution_tixian` WHERE  (  du_id = 23 ) LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution_tixian` WHERE  (  du_id = 23 ) ORDER BY `dt_id` DESC LIMIT 0,20 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:27:59+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/bill/index.html
+[运行时间：0.045757s] [吞吐率：21.85req/s] [内存消耗：1,281.13kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'bill',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Bill->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Bill.php ]
+[ info ] [ VIEW ] template/fenxiao/bill/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001700s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.005633s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.003264s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_bill` `b` INNER JOIN `web_wxgroup` `wg` ON `b`.`wxg_id`=`wg`.`wxg_id` INNER JOIN `web_substation_paylist` `sp` ON `b`.`su_pl_id`=`sp`.`su_pl_id` INNER JOIN `web_paylist` `p` ON `sp`.`pl_id`=`p`.`pl_id` WHERE  (  b.du_id = 23 ) LIMIT 1 [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` `b` INNER JOIN `web_wxgroup` `wg` ON `b`.`wxg_id`=`wg`.`wxg_id` INNER JOIN `web_substation_paylist` `sp` ON `b`.`su_pl_id`=`sp`.`su_pl_id` INNER JOIN `web_paylist` `p` ON `sp`.`pl_id`=`p`.`pl_id` WHERE  (  b.du_id = 23 ) ORDER BY `b`.`bl_id` DESC LIMIT 0,20 [ RunTime:0.003589s ]
+---------------------------------------------------------------
+[ 2023-03-16T20:28:02+08:00 ] 117.92.150.150 GET xiezhen1.720vrcloud.net/fenxiao.php/bill/index.html
+[运行时间：0.034914s] [吞吐率：28.64req/s] [内存消耗：1,281.70kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'bill',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'https://xiezhen1.720vrcloud.net/fenxiao.php/bill/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1rjklepedn92rmtgl5kldn3c02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Bill->index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/fenxiao/controller/Bill.php ]
+[ info ] [ VIEW ] template/fenxiao/bill/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'page',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=xiezhen1_720vrcl;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.004769s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.003199s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_bill` `b` INNER JOIN `web_wxgroup` `wg` ON `b`.`wxg_id`=`wg`.`wxg_id` INNER JOIN `web_substation_paylist` `sp` ON `b`.`su_pl_id`=`sp`.`su_pl_id` INNER JOIN `web_paylist` `p` ON `sp`.`pl_id`=`p`.`pl_id` WHERE  (  b.du_id = 23 ) LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` `b` INNER JOIN `web_wxgroup` `wg` ON `b`.`wxg_id`=`wg`.`wxg_id` INNER JOIN `web_substation_paylist` `sp` ON `b`.`su_pl_id`=`sp`.`su_pl_id` INNER JOIN `web_paylist` `p` ON `sp`.`pl_id`=`p`.`pl_id` WHERE  (  b.du_id = 23 ) ORDER BY `b`.`bl_id` DESC LIMIT 0,20 [ RunTime:0.000637s ]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">账号</label>
+            <div class="layui-input-block">
+              <input name="phone" type="text" class="layui-input" id="phone" value="{$info.u_phone}"   placeholder="账号">
+            </div>
+          </div> 
+		  
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+              <input type="radio" name="status" value="1" title="启用" {if $info.u_status==1}checked=""{/if}>
+              <input type="radio" name="status" value="2" title="禁用" {if $info.u_status==2}checked=""{/if}>
+            </div>
+          </div>   
+
+		<div class="layui-form-item">
+            <label class="layui-form-label">超管</label>
+            <div class="layui-input-block">
+              <input type="radio" name="supermanage" value="1" title="非超管" {if $info.u_supermanage==1}checked=""{/if}>
+              <input type="radio" name="supermanage" value="2" title="超管" {if $info.u_supermanage==2}checked=""{/if}>
+            </div>
+          </div>
+		  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	var title     = $("#title").val();
+	var status    = $("input[name='status']:checked").val();
+	
+	if(title==""){
+		show_error("群组名称不能为空!");
+		return false;
+	}
+
+	$.ajax({
+		type:"POST",
+		url:"{:url('group/edit')}",
+		dataType:"json",
+		data:{
+			id:"{$info.u_id}",
+			title:title,
+			status:status,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

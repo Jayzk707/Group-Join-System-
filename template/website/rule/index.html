@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+          	<div class="layui-box">
+			 {if($__APS__.addgroup)}<button class="layui-btn layuiadmin-btn-tags" data-type="addgroup">添加分类</button>{/if}
+			 {if($__APS__.add)}<button class="layui-btn layuiadmin-btn-tags" data-type="add">添加权限</button>{/if}
+			 </div>
+		
+			
+			
+			
+			<table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+				<th width="20"></th>
+                <!--<th width="35">序号</th>-->
+				<th width="35">状态</th>
+				<th width="230">权限名称</th>
+				<th>路径</th>
+				<th></th>
+				{if($__APS__.del or $__APS__.edit or $__APS__.delgroup  or $__APS__.editgroup)}<th width="100">管理</th>{/if}
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.id}">
+					<td><input type="checkbox" name="delmulti" id="checkbox" value="{$vo.id}"></td>
+					<!--<td class="text-center">{$vo.id}</td>-->
+					<td class="text-center"><!--{if $vo.status==1}<span class="layui-badge-dot layui-bg-green"></span>{else}<span class="layui-badge-dot"></span>{/if}--></td>
+					<td><strong><span class="layui-badge layui-bg-cyan">{$vo.title}</span></strong></td>
+					<td></td>
+					<td class="text-center">{$vo.condition}</td>
+					{if($__APS__.del or $__APS__.edit or $__APS__.delgroup  or $__APS__.editgroup)}
+					<td>
+							<div class="layui-btn-group">
+								{if($__APS__.delgroup)}<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('rule/delgroup',array('id'=>$vo.id))}','tr_{$vo.id}')"><i class="layui-icon">&#xe640;</i></button>{/if}
+								{if($__APS__.editgroup)}<button class="layui-btn layui-btn-sm" data-type="editgroup" data-id="{$vo.id}"><i class="layui-icon">&#xe642;</i></button>{/if}
+							</div>
+					</td>
+					{/if}
+				</tr>
+				{volist name="vo.data" id="vo1"}
+				<tr id="tr_{$vo1.id}">
+					<td><input type="checkbox" name="delmulti" id="checkbox" value="{$vo1.id}"></td>
+					<!--<td class="text-center">{$vo1.id}</td>-->
+					<td class="text-center">{if $vo1.status==1}<span class="layui-badge-dot layui-bg-green"></span>{else}<span class="layui-badge-dot"></span>{/if}</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_&nbsp;<span class="layui-badge-rim">{$vo1.title}</span></td>
+					<td><span class="layui-badge layui-bg-gray">{$vo1.name}</span></td>
+					<td class="text-center">{$vo1.condition}</td>
+					{if($__APS__.del or $__APS__.edit or $__APS__.delgroup  or $__APS__.editgroup)}
+					<td>
+							<div class="layui-btn-group">
+								{if($__APS__.del)}<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('rule/del',array('id'=>$vo1.id))}','tr_{$vo1.id}')"><i class="layui-icon">&#xe640;</i></button>{/if}
+								{if($__APS__.edit)}<button class="layui-btn layui-btn-sm" data-type="edit" data-id="{$vo1.id}"><i class="layui-icon">&#xe642;</i></button>{/if}
+							</div>
+					</td>
+					{/if}
+				</tr>
+				{/volist}
+			{/volist}
+            </tbody>
+          </table> 
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+
+<script>
+  layui.use(['index'], function(){
+    var $ = layui.$, active = {
+	 {if($__APS__.add)}
+      add: function(){
+        layer.open({
+          type: 2
+          ,title: '添加权限模块'
+          ,content: '{:url('rule/add')}'
+          ,area: ['550px', '505px']
+        }); 
+      },
+	  {/if}
+	  
+	  {if($__APS__.addgroup)}
+      addgroup: function(){
+        layer.open({
+          type: 2
+          ,title: '添加权限分类'
+          ,content: '{:url('rule/addgroup')}'
+          ,area: ['550px', '290px']
+        }); 
+      },
+	  {/if}
+	  
+	  {if($__APS__.edit)}
+	  edit: function(){
+		var id = $(this).data('id');
+		var url = '{:url('rule/edit',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '修改权限模块'
+          ,content: url
+          ,area: ['550px', '505px']
+        }); 
+      },
+	  {/if}
+	  
+	  {if($__APS__.editgroup)}
+	  editgroup: function(){
+		var id = $(this).data('id');
+		var url = '{:url('rule/editgroup',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '修改权限分类'
+          ,content: url
+          ,area: ['550px', '290px']
+        }); 
+      },
+	  {/if}
+
+    } 
+	
+	
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

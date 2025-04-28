@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+			<div class="layui-form" lay-filter="component-form-element">
+			    <div class="layui-box">
+			{if !empty($webinfo.text12)}<a class="layui-btn layuiadmin-btn-tags" href="{$webinfo.text12}" target="_blank">功能说明</a>{/if}
+			 </div>
+            <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+                <th>状态</th>
+                <th>群名称</th>
+                <th>副标题</th>
+                <th>群费用</th>
+                <th width="120">管理</th>
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.wxgt_id}">
+					<td class="text-center">{$vo.wxgt_id}</td>
+                    <td>
+                    {if $vo.wxgt_status==1}<span class="layui-badge layui-bg-blue">启用</span>
+                    {elseif $vo.wxgt_status==2}<span class="layui-badge layui-bg-black">禁用</span>{/if}
+                    </td>
+                    <td><span class="layui-badge-rim">{$vo.wxgt_title}</span></td>
+                    <td><span class="layui-badge-rim">{$vo.wxgt_subtitle}</span></td>
+                    <td><span class="layui-badge-rim">{$vo.wxgt_money} 元</span></td>
+                    <td>
+							<div class="layui-btn-group">
+								<button class="layui-btn layui-btn-sm" data-type="edit" data-id="{$vo.wxgt_id}"><i class="layui-icon">使用模板</i></button>
+							</div>
+                    </td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+          <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+		  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+
+      
+	  edit: function(){
+		var id = $(this).data('id');
+		var url = '{:url('wxgrouptmp/edit',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '使用模板'
+          ,content: url
+          ,area: ['800px', '750px']
+        }); 
+      },
+      
+	 
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1179 @@
+---------------------------------------------------------------
+[ 2023-07-10T00:08:09+08:00 ] 112.97.84.29 GET nynls.coversxs.cloud/group.php/index/index/id/137.html
+[运行时间：0.029804s] [吞吐率：33.55req/s] [内存消耗：2,996.60kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nynls.coversxs.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; FNE-AN00 Build/HONORFNE-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/3968 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '137',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 137 ) LIMIT 1 [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2023-07-10T00:08:09+08:00 ] 112.97.84.29 GET nynls.coversxs.cloud/group.php/index/turl/id/137.html
+[运行时间：0.030859s] [吞吐率：32.41req/s] [内存消耗：2,961.14kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nynls.coversxs.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; FNE-AN00 Build/HONORFNE-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/3968 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => '*/*',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://nynls.coversxs.cloud/group.php/index/index/id/137.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '137',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 137 ) LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 73 ) LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 29 ) LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 29 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2023-07-10T00:08:09+08:00 ] 112.97.84.29 GET nynls.coversxs.cloud/favicon.ico
+[运行时间：0.017690s] [吞吐率：56.53req/s] [内存消耗：1,432.61kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nynls.coversxs.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; FNE-AN00 Build/HONORFNE-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/3968 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://nynls.coversxs.cloud/group.php/index/index/id/137.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-10T00:08:10+08:00 ] 112.97.84.29 GET nynls.coversxs.cloud/group.php/index/share/id/137/t/70646045eb6267a9c9ab55c3af31d2d7/time/1688918889.html
+[运行时间：0.033134s] [吞吐率：30.18req/s] [内存消耗：3,302.74kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nynls.coversxs.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; FNE-AN00 Build/HONORFNE-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/3968 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://nynls.coversxs.cloud/group.php/index/index/id/137.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '137',
+  't' => '70646045eb6267a9c9ab55c3af31d2d7',
+  'time' => '1688918889',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001671s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 137 ) LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=683  WHERE  (  wxg_id = 137 ) [ RunTime:0.000867s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:414]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:414]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:414]
+---------------------------------------------------------------
+[ 2023-07-10T00:08:14+08:00 ] 112.97.84.29 POST nynls.coversxs.cloud/group.php/index/paylist.html
+[运行时间：0.036435s] [吞吐率：27.45req/s] [内存消耗：3,019.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nynls.coversxs.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; FNE-AN00 Build/HONORFNE-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/3968 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://nynls.coversxs.cloud',
+  'referer' => 'http://nynls.coversxs.cloud/group.php/index/share/id/137/t/70646045eb6267a9c9ab55c3af31d2d7/time/1688918889.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=2dus1ravva17rk41a8np89nk96',
+)
+[ info ] [ PARAM ] array (
+  'id' => '137',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 137 ) LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 29 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (25) ) [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 73 ) LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '29_137_1688918894' and su_id = 29 and wxg_id = 137 ) LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (73 , 29 , 137 , 25 , '29_137_1688918894' , 19.9 , '2023-07-10 00:08:14' , 1 , 100 , 19.9 , 0) [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 29 ) LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2023-07-10T12:19:02+08:00 ] 120.87.218.244 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.039196s] [吞吐率：25.51req/s] [内存消耗：3,314.91kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBAM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/8870 MicroMessenger/8.0.38.2400(0x28002639) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=tq3kf76n8p8qq2bmcchckusp81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001915s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=992  WHERE  (  wxg_id = 85 ) [ RunTime:0.000695s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T12:19:10+08:00 ] 120.87.218.244 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.014053s] [吞吐率：71.16req/s] [内存消耗：1,433.29kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBAM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/8870 MicroMessenger/8.0.38.2400(0x28002639) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=tq3kf76n8p8qq2bmcchckusp81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-10T12:19:10+08:00 ] 120.87.218.244 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.043207s] [吞吐率：23.14req/s] [内存消耗：3,024.46kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBAM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/8870 MicroMessenger/8.0.38.2400(0x28002639) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=tq3kf76n8p8qq2bmcchckusp81',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002749s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.002490s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.002191s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 44 ) LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_85_1688962750' and su_id = 20 and wxg_id = 85 ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (44 , 20 , 85 , 15 , '20_85_1688962750' , 3.99 , '2023-07-10 12:19:10' , 1 , 100 , 3.99 , 0) [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.002163s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2023-07-10T12:19:25+08:00 ] 120.87.218.244 GET hysdy.mucuan.cloud/group.php/index/successok/id/85.html?money=3.99&name=product&out_trade_no=20_85_1688962750&pid=1042&trade_no=2023071012191012955&trade_status=TRADE_SUCCESS&type=wxpay&sign=9740d86b76bb8f5290a1eee873a5fc07&sign_type=MD5
+[运行时间：0.028259s] [吞吐率：35.39req/s] [内存消耗：3,241.83kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'successok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBAM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/8870 MicroMessenger/8.0.38.2400(0x28002639) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=tq3kf76n8p8qq2bmcchckusp81',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1688962750',
+  'pid' => '1042',
+  'trade_no' => '2023071012191012955',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '9740d86b76bb8f5290a1eee873a5fc07',
+  'sign_type' => 'MD5',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->successok[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/successok.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2023-07-10T14:09:43+08:00 ] 36.161.153.122 GET hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html
+[运行时间：0.031159s] [吞吐率：32.09req/s] [内存消耗：3,306.61kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSC-AL50 Build/HUAWEIJSC-AL50; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/5734 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  't' => '944e54f2b3b1c11b8e412443a68e915c',
+  'time' => '1688659854',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 95 ) LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=115  WHERE  (  wxg_id = 95 ) [ RunTime:0.000431s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T14:09:45+08:00 ] 36.161.153.122 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.019165s] [吞吐率：52.18req/s] [内存消耗：1,433.30kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSC-AL50 Build/HUAWEIJSC-AL50; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/5734 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=rdtr8jsrnh8ck57a1ft1refqm4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-10T14:09:48+08:00 ] 36.161.153.122 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.035182s] [吞吐率：28.42req/s] [内存消耗：3,022.48kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSC-AL50 Build/HUAWEIJSC-AL50; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/5734 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=rdtr8jsrnh8ck57a1ft1refqm4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 95 ) LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 44 ) LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_95_1688969388' and su_id = 20 and wxg_id = 95 ) LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (44 , 20 , 95 , 15 , '20_95_1688969388' , 3.99 , '2023-07-10 14:09:48' , 1 , 100 , 3.99 , 0) [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2023-07-10T14:09:50+08:00 ] 36.161.153.122 GET hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html
+[运行时间：0.032690s] [吞吐率：30.59req/s] [内存消耗：3,317.97kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSC-AL50 Build/HUAWEIJSC-AL50; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/5734 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=rdtr8jsrnh8ck57a1ft1refqm4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  't' => '944e54f2b3b1c11b8e412443a68e915c',
+  'time' => '1688659854',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 95 ) LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 95 and bl_sncode = '20_95_1688969388' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=116  WHERE  (  wxg_id = 95 ) [ RunTime:0.000494s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T14:10:00+08:00 ] 36.161.153.122 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.036316s] [吞吐率：27.54req/s] [内存消耗：3,326.70kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSC-AL50 Build/HUAWEIJSC-AL50; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230604 MMWEBID/5734 MicroMessenger/8.0.38.2400(0x28002652) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=rdtr8jsrnh8ck57a1ft1refqm4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 85 and bl_sncode = '20_95_1688969388' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000824s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=993  WHERE  (  wxg_id = 85 ) [ RunTime:0.000527s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T14:35:51+08:00 ] 120.243.134.155 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.042380s] [吞吐率：23.60req/s] [内存消耗：3,315.16kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 13; 22041216C Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230504 MMWEBID/9594 MicroMessenger/8.0.37.2380(0x2800255B) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002056s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=994  WHERE  (  wxg_id = 85 ) [ RunTime:0.000712s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T14:35:55+08:00 ] 120.243.134.155 GET hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html
+[运行时间：0.042280s] [吞吐率：23.65req/s] [内存消耗：3,306.66kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 13; 22041216C Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230504 MMWEBID/9594 MicroMessenger/8.0.37.2380(0x2800255B) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=07efru9hnva0e84dp7gdtjer71',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  't' => '944e54f2b3b1c11b8e412443a68e915c',
+  'time' => '1688659854',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001634s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 95 ) LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=117  WHERE  (  wxg_id = 95 ) [ RunTime:0.000441s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T14:35:57+08:00 ] 120.243.134.155 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.020709s] [吞吐率：48.29req/s] [内存消耗：1,433.29kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 13; 22041216C Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230504 MMWEBID/9594 MicroMessenger/8.0.37.2380(0x2800255B) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/95/t/944e54f2b3b1c11b8e412443a68e915c/time/1688659854.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=07efru9hnva0e84dp7gdtjer71',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-10T22:24:39+08:00 ] 112.32.230.242 GET hysdy.mucuan.cloud/group.php/index/index/id/124.html
+[运行时间：0.027034s] [吞吐率：36.99req/s] [内存消耗：3,006.15kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.39(0x1800272c) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '124',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 124 ) LIMIT 1 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2023-07-10T22:24:40+08:00 ] 112.32.230.242 GET hysdy.mucuan.cloud/group.php/index/turl/id/124.html
+[运行时间：0.036075s] [吞吐率：27.72req/s] [内存消耗：2,970.92kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.39(0x1800272c) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/index/id/124.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '124',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 124 ) LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 62 ) LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 20 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2023-07-10T22:24:41+08:00 ] 112.32.230.242 GET hysdy.mucuan.cloud/group.php/index/share/id/124/t/09afd05f177f7ba53b92d60ceaeb58f7/time/1688999080.html
+[运行时间：0.037286s] [吞吐率：26.82req/s] [内存消耗：3,314.24kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.39(0x1800272c) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/index/id/124.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '124',
+  't' => '09afd05f177f7ba53b92d60ceaeb58f7',
+  'time' => '1688999080',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 124 ) LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=59  WHERE  (  wxg_id = 124 ) [ RunTime:0.000511s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T22:24:45+08:00 ] 112.32.230.242 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.036393s] [吞吐率：27.48req/s] [内存消耗：3,024.10kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.39(0x1800272c) NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/124/t/09afd05f177f7ba53b92d60ceaeb58f7/time/1688999080.html',
+  'content-length' => '6',
+  'cookie' => 'PHPSESSID=764r1ktnbaaclns43seu8atv94',
+)
+[ info ] [ PARAM ] array (
+  'id' => '124',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 124 ) LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 62 ) LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_124_1688999085' and su_id = 20 and wxg_id = 124 ) LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (62 , 20 , 124 , 15 , '20_124_1688999085' , 3.99 , '2023-07-10 22:24:45' , 1 , 60 , 2.394 , 1.596) [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2023-07-10T23:43:38+08:00 ] 27.189.13.120 GET hysdy.mucuan.cloud/group.php/index/index/id/83.html
+[运行时间：0.026981s] [吞吐率：37.06req/s] [内存消耗：3,006.84kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.30(0x18001e32) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '83',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 83 ) LIMIT 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2023-07-10T23:43:39+08:00 ] 27.189.13.120 GET hysdy.mucuan.cloud/group.php/index/turl/id/83.html
+[运行时间：0.032740s] [吞吐率：30.54req/s] [内存消耗：2,971.61kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.30(0x18001e32) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/index/id/83.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '83',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 83 ) LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 41 ) LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 20 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2023-07-10T23:43:40+08:00 ] 27.189.13.120 GET hysdy.mucuan.cloud/group.php/index/share/id/83/t/13bc97b7ddf1632b7f892283786863a1/time/1689003819.html
+[运行时间：0.037753s] [吞吐率：26.49req/s] [内存消耗：3,316.27kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.30(0x18001e32) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/index/id/83.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '83',
+  't' => '13bc97b7ddf1632b7f892283786863a1',
+  'time' => '1689003819',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 83 ) LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=1943  WHERE  (  wxg_id = 83 ) [ RunTime:0.000520s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T23:55:34+08:00 ] 112.32.188.236 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.036432s] [吞吐率：27.45req/s] [内存消耗：3,315.19kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; LIO-AN00 Build/HUAWEILIO-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5169 MMWEBSDK/20230604 MMWEBID/7903 MicroMessenger/8.0.38.2400(0x28002656) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001683s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=995  WHERE  (  wxg_id = 85 ) [ RunTime:0.000680s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-10T23:55:37+08:00 ] 112.32.188.236 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.034426s] [吞吐率：29.05req/s] [内存消耗：3,024.46kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; LIO-AN00 Build/HUAWEILIO-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5169 MMWEBSDK/20230604 MMWEBID/7903 MicroMessenger/8.0.38.2400(0x28002656) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ko8kuktb8ksurstuas6qfijt74',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002098s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 44 ) LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_85_1689004537' and su_id = 20 and wxg_id = 85 ) LIMIT 1 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (44 , 20 , 85 , 15 , '20_85_1689004537' , 3.99 , '2023-07-10 23:55:37' , 1 , 100 , 3.99 , 0) [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000359s ]

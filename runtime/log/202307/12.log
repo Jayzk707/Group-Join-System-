@@ -1,0 +1,494 @@
+---------------------------------------------------------------
+[ 2023-07-12T00:33:33+08:00 ] 112.32.188.236 GET hysdy.mucuan.cloud/group.php/index/share/id/83/t/712552d1d5d3b16673601a109cf0125d/time/1687684582.html
+[运行时间：0.051616s] [吞吐率：19.37req/s] [内存消耗：3,316.66kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; LIO-AN00 Build/HUAWEILIO-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5169 MMWEBSDK/20230604 MMWEBID/7903 MicroMessenger/8.0.38.2400(0x28002656) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ko8kuktb8ksurstuas6qfijt74',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '83',
+  't' => '712552d1d5d3b16673601a109cf0125d',
+  'time' => '1687684582',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002221s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003254s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 83 ) LIMIT 1 [ RunTime:0.002313s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=1945  WHERE  (  wxg_id = 83 ) [ RunTime:0.000515s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-07-12T00:33:35+08:00 ] 112.32.188.236 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.013920s] [吞吐率：71.84req/s] [内存消耗：1,433.30kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; LIO-AN00 Build/HUAWEILIO-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5169 MMWEBSDK/20230604 MMWEBID/7903 MicroMessenger/8.0.38.2400(0x28002656) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/83/t/712552d1d5d3b16673601a109cf0125d/time/1687684582.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ko8kuktb8ksurstuas6qfijt74',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T00:33:43+08:00 ] 112.32.188.236 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.044672s] [吞吐率：22.39req/s] [内存消耗：3,025.02kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; LIO-AN00 Build/HUAWEILIO-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5169 MMWEBSDK/20230604 MMWEBID/7903 MicroMessenger/8.0.38.2400(0x28002656) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/83/t/712552d1d5d3b16673601a109cf0125d/time/1687684582.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=ko8kuktb8ksurstuas6qfijt74',
+)
+[ info ] [ PARAM ] array (
+  'id' => '83',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 83 ) LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.002128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 41 ) LIMIT 1 [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001892s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_83_1689093223' and su_id = 20 and wxg_id = 83 ) LIMIT 1 [ RunTime:0.002232s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (41 , 20 , 83 , 15 , '20_83_1689093223' , 3.99 , '2023-07-12 00:33:43' , 1 , 100 , 3.99 , 0) [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2023-07-12T07:13:56+08:00 ] 36.99.136.128 GET hyskkk.csa7.cn/
+[运行时间：0.019589s] [吞吐率：51.05req/s] [内存消耗：1,701.47kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hyskkk.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:13:56+08:00 ] 36.99.136.128 GET hyskkk.csa7.cn/favicon.ico
+[运行时间：0.013033s] [吞吐率：76.73req/s] [内存消耗：1,432.37kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hyskkk.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:00+08:00 ] 111.7.96.170 GET nanyu.mensxs.cloud/
+[运行时间：0.013504s] [吞吐率：74.05req/s] [内存消耗：1,701.52kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:00+08:00 ] 111.7.96.170 GET nanyu.mensxs.cloud/favicon.ico
+[运行时间：0.013403s] [吞吐率：74.61req/s] [内存消耗：1,432.44kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:30+08:00 ] 36.99.136.128 GET hys.csa7.cn/
+[运行时间：0.012755s] [吞吐率：78.40req/s] [内存消耗：1,701.40kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hys.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:30+08:00 ] 36.99.136.128 GET hys.csa7.cn/favicon.ico
+[运行时间：0.012620s] [吞吐率：79.24req/s] [内存消耗：1,432.36kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hys.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:37+08:00 ] 219.144.66.41 GET tct678.msmsxs.cloud/
+[运行时间：0.013108s] [吞吐率：76.29req/s] [内存消耗：1,701.53kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tct678.msmsxs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:16:38+08:00 ] 219.144.66.41 GET tct678.msmsxs.cloud/favicon.ico
+[运行时间：0.012468s] [吞吐率：80.20req/s] [内存消耗：1,432.47kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tct678.msmsxs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:17:17+08:00 ] 111.7.100.30 GET ls.csa7.cn/
+[运行时间：0.013359s] [吞吐率：74.86req/s] [内存消耗：1,701.37kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ls.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:17:17+08:00 ] 111.7.100.30 GET ls.csa7.cn/favicon.ico
+[运行时间：0.012382s] [吞吐率：80.76req/s] [内存消耗：1,432.38kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ls.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:17:28+08:00 ] 117.34.124.79 GET hysdy.mucuan.cloud/
+[运行时间：0.012863s] [吞吐率：77.74req/s] [内存消耗：1,701.52kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-12T07:17:28+08:00 ] 117.34.124.79 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.013580s] [吞吐率：73.64req/s] [内存消耗：1,432.44kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

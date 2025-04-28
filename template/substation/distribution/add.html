@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        
+        <div class="layui-form-item">
+            <label class="layui-form-label">所属群组</label>
+            <div class="layui-input-block">
+				<select name="dg_id" id="dg_id">
+					<option value="0"> === 请选择群组 === </option>
+					{volist name="list" id="vo"}
+						<option value="{$vo.dg_id}">{$vo.dg_title}</option>
+					{/volist}
+				</select>
+            </div>
+          </div>  
+        
+        <div class="layui-form-item">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-block">
+              <input name="name" type="text" class="layui-input" id="name"   placeholder="用户名">
+            </div>
+          </div>  
+          
+
+         <div class="layui-form-item">
+            <label class="layui-form-label">密码</label>
+            <div class="layui-input-block">
+              <input name="pass" type="text" class="layui-input" id="pass"   placeholder="密码">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">真实姓名</label>
+            <div class="layui-input-block">
+              <input name="smname" type="text" class="layui-input" id="smname"   placeholder="真实姓名">
+            </div>
+          </div>
+          
+
+          <div class="layui-form-item">
+            <label class="layui-form-label">账号</label>
+            <div class="layui-input-block">
+              <input name="phone" type="text" class="layui-input" id="phone"   placeholder="账号">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">支付宝</label>
+            <div class="layui-input-block">
+              <input name="zfb" type="text" class="layui-input" id="zfb"   placeholder="支付宝">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">微信号</label>
+            <div class="layui-input-block">
+              <input name="wx" type="text" class="layui-input" id="wx"   placeholder="微信号">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+              <input type="radio" name="status" value="1" title="启用" checked="">
+              <input type="radio" name="status" value="2" title="禁用">
+            </div>
+          </div>
+	  
+	  <div class="layui-form-item">
+            <label class="layui-form-label">模板权限</label>
+            <div class="layui-input-block">
+              <input type="radio" name="du_tmp" value="1" title="所有功能" checked="">
+              <input type="radio" name="du_tmp" value="2" title="指定模板">
+            </div>
+          </div>
+          
+         <div class="layui-form-item">
+            <label class="layui-form-label">模板</label>
+            <div class="layui-input-block">
+                {volist name="tmp" id="vo"}
+            <input type="checkbox" name="model" value="{$vo.wxgt_id}" title="{$vo.wxgt_title}" checked>
+                {/volist}
+            </div>
+          </div>
+          
+	  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	
+	var dg_id   = $("#dg_id").val();
+	var name    = $("#name").val();
+	var pass    = $("#pass").val();
+	var smname  = $("#smname").val();
+	var phone   = $("#phone").val();
+	var zfb     = $("#zfb").val();
+	var wx      = $("#wx").val();
+	var status  = $("input[name='status']:checked").val();
+    var du_tmp  = $("input[name='du_tmp']:checked").val();
+    
+	var paylists  = "";
+	$.each($('input:checkbox'),function(){
+		if(this.checked){
+			paylists += $(this).val()+",";
+		}
+	});
+    
+    
+ 	if(dg_id==0){
+		show_error("请选择分销群组!");
+		return false;
+	}
+ 
+	if(name==""){
+		show_error("用户名不能为空!");
+		return false;
+	}
+	
+	if(pass==""){
+		show_error("密码不能为空!");
+		return false;
+	}
+
+	$.ajax({
+		type:"POST",
+		url:"{:url('distribution/add')}",
+		dataType:"json",
+		data:{
+			dg_id:dg_id,
+			name:name,
+			pass:pass,
+			smname:smname,
+			phone:phone,
+			zfb:zfb,
+			wx:wx,
+			status:status,
+			du_tmp:du_tmp,
+			paylists:paylists,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

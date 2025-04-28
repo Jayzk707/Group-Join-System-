@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+             
+          	<div class="layui-box">
+			<button class="layui-btn layuiadmin-btn-tags" data-type="add">提现申请</button>
+			{if !empty($webinfo.text14)}<a class="layui-btn layuiadmin-btn-tags" href="{$webinfo.text14}" target="_blank">功能说明</a>{/if}
+			 </div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+                <th>状态</th>
+                <th>提现金额</th>
+                <th>提现时间</th>
+                <th>审核时间</th>
+                <th>审核备注</th>
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.dt_id}">
+					<td class="text-center">{$vo.dt_id}</td>
+                    <td>
+                    {if $vo.dt_status==1}<span class="layui-badge layui-bg-blue">审核中</span>
+                    {elseif $vo.dt_status==3}<span class="layui-badge layui-bg-black">拒绝</span>
+                    {elseif $vo.dt_status==4}<span class="layui-badge layui-bg-green">已支付</span>{/if}
+                    </td>
+                    <td>{$vo.dt_money}</td>
+                    <td>{$vo.dt_addtime}</td>
+                    <td>{$vo.dt_shtime}</td>
+                    <td>{$vo.dt_content}</td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+          <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+		  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+
+	 
+	  add: function(){
+		var id = $(this).data('id');
+		var url = '{:url('distributiontixian/add')}';
+        layer.open({
+          type: 2
+          ,title: '提现申请'
+          ,content: url
+          ,area: ['550px', '450px']
+        }); 
+      },
+	 
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

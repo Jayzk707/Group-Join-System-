@@ -1,0 +1,60 @@
+---------------------------------------------------------------
+[ 2023-03-22T11:08:30+08:00 ] 198.235.24.141 GET xiezhen1.720vrcloud.net/
+[运行时间：0.019653s] [吞吐率：50.88req/s] [内存消耗：361.44kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'user-agent' => 'Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-22T16:15:24+08:00 ] 106.111.214.118 GET xiezhen1.720vrcloud.net/
+[运行时间：0.019569s] [吞吐率：51.10req/s] [内存消耗：363.09kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File

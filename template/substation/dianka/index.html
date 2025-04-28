@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+              <div class="layui-box">
+			<button class="layui-btn layuiadmin-btn-tags" data-type="add">充值点卡</button>
+			<button class="layui-btn layuiadmin-btn-tags" data-type="add1">余额：{$info.su_dk|round=###,2}</button>
+			{if !empty($webinfo.text6)}<a class="layui-btn layuiadmin-btn-tags" href="{$webinfo.text6}" target="_blank">功能说明</a>{/if}
+
+			 </div>
+			<div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+				<th>状态</th>
+				<th>网关</th>
+                <th>金额</th>
+				<th>添加时间</th>
+                <th>支付时间</th>
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.dk_id}">
+					<td class="text-center">{$vo.dk_id}</td>
+                    <td class="text-center">{if $vo.dk_status==1}未支付{else}已支付{/if}</td>
+                    <td class="text-center">{if $vo.dk_type==2}支付宝{elseif $vo.dk_type==3}后台{else}微信{/if}</td>
+                    <td>{$vo.dk_money}</td>
+                    <td>{$vo.dk_addtime}</td>
+                    <td>{$vo.dk_pay_time}</td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+		  </div>
+		  <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+
+    var $ = layui.$, active = {
+   
+
+	  add: function(){
+        layer.open({
+          type: 2
+          ,title: '充值点卡'
+          ,content: '{:url('dianka/add')}'
+          ,area: ['600px', '650px']
+        }); 
+      },
+	 
+
+	 
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

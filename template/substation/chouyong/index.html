@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+              <div class="layui-box">
+				   {if !empty($webinfo.text16)}<a class="layui-btn layuiadmin-btn-tags" href="{$webinfo.text16}" target="_blank">功能说明</a>{/if}
+			 </div>
+			<div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+				<th>抽佣金额</th>
+                <th>抽佣时间</th>
+				<th>订单号</th>
+				<th>订单金额</th>
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.dkl_id}">
+					<td class="text-center">{$vo.dkl_id}</td>
+                    <td class="text-center">{$vo.dkl_money}</td>
+                    <td>{$vo.dkl_addtime}</td>
+                    <td>{$vo.bl_sncode}</td>
+                    <td>{$vo.bl_money}</td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+		  </div>
+		  <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+</body>
+</html>

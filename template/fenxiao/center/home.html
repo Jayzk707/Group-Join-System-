@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	{include file="common_header" /}
+	{include file="common_top" /}
+	<style>
+	.action{border:1px solid #090; color:#090; font-weight:bolder;}
+	</style>
+</head>
+<body>
+
+
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+	
+	<div class="layui-col-md12">
+
+            <div class="layui-card">
+              <div class="layui-card-body">               
+				<div class="layui-carousel layadmin-carousel layadmin-backlog">
+                    <ul class="layui-row layui-col-space10">
+					
+                      <li class="layui-col-xs6">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>当天销售额</h3>
+                          <p><cite>{$d_money_count|round=###,2}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs6">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>当天订单量</h3>
+                          <p><cite>{$d_bill_count}</cite></p>
+                        </a>
+                      </li>
+					  
+					  
+					  <li class="layui-col-xs6">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>总销售额</h3>
+                          <p><cite>{$z_money_count|round=###,2}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs6">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>总订单量</h3>
+                          <p><cite>{$z_bill_count}</cite></p>
+                        </a>
+                      </li>
+					  
+                      
+					  
+                    </ul>
+
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  
+	<style>
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.alert-dismissible {
+    padding-right: 4rem;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+	
+	</style>
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+	<div class="layui-col-md12">
+            <div class="layui-card">
+              <div class="layui-card-body">               
+<div class="alert alert-warning alert-dismissible fade show">
+{if $z_money_count <=99}
+大哥加把劲啊，隔壁老王赚了钱晚上蹦迪都开黑桃A了，咱得干倒他啊
+{elseif $z_money_count <=300}
+今天晚上加个菜，烧烤也能安排上了，争取明天来个火锅
+{elseif $z_money_count <=500}
+大哥！晚上找个开凯迪拉克的兄弟洗浴中心走一趟，别想歪啊，就是去泡个澡放松放松，别去二楼
+{elseif $z_money_count <=700}
+大哥！今天太猛了，你已经超过了70%的兄弟们了
+{elseif $z_money_count <=1000}
+大哥！今天抽华子，说啥都得安排上！
+{else}
+大哥牛逼，小弟没文化，只能希望大哥以后更牛逼！
+{/if}
+ </div>     
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+    
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+	<div class="layui-col-md12">
+            <div class="layui-card">
+              <div class="layui-card-body">               
+			
+
+<div id="container" style="height: 460px"></div>
+
+
+              
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  {include file="common_footer" /} 
+  <script type="text/javascript" src="/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  xAxis: {
+    type: 'category',
+    data: [
+        {volist name="timg" id="vo"}
+        '{$vo.date}',
+        {/volist}
+    ]
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [
+        {volist name="timg" id="vo"}
+        {$vo.money|round=###,2},
+        {/volist}
+          ],
+      type: 'bar',
+      label: {
+        show: true,
+        position: 'inside'
+      },
+      
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

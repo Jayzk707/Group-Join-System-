@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+          	<div class="layui-box">
+			{if($__APS__.add)}<button class="layui-btn layuiadmin-btn-tags" data-type="add">添加</button>{/if}
+			 </div>
+			<div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+				<th>名称</th>
+                <th>编码</th>
+				<th>图标</th>
+                <th>状态</th>
+                <th>备注</th>
+				{if($__APS__.del or $__APS__.edit)}<th width="100">管理</th>{/if}
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.pl_id}">
+					<td class="text-center">{$vo.pl_id}</td>
+                    <td><span class="layui-badge-rim">{$vo.pl_title}</span></td>
+                    <td><span class="layui-badge-rim">{$vo.pl_code}</span></td>
+                    <td><img src="{$vo.pl_ico}" width="40" height="40"></td>
+                    <td class="text-center">{if $vo.pl_status==1}<span class="layui-badge-dot layui-bg-green"></span>{else}<span class="layui-badge-dot"></span>{/if}</td>
+                    <td>{$vo.pl_content}</td>
+					{if($__APS__.del or $__APS__.edit)}
+					<td>
+							<div class="layui-btn-group">
+								{if($__APS__.del)}<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('paylist/del',array('id'=>$vo.pl_id))}','tr_{$vo.pl_id}')"><i class="layui-icon">&#xe640;</i></button>{/if}
+								{if($__APS__.edit)}<button class="layui-btn layui-btn-sm" data-type="edit" data-id="{$vo.pl_id}"><i class="layui-icon">&#xe642;</i></button>{/if}
+							</div>
+					</td>
+					{/if}
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+		  </div>
+		  <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+      {if($__APS__.add)}
+	  add: function(){
+        layer.open({
+          type: 2
+          ,title: '添加支付'
+          ,content: '{:url('paylist/add')}'
+          ,area: ['550px', '650px']
+        }); 
+      },
+	  {/if}
+	  
+	  {if($__APS__.edit)}
+	  edit: function(){
+		var id = $(this).data('id');
+		var url = '{:url('paylist/edit',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '修改支付'
+          ,content: url
+          ,area: ['550px', '650px']
+        }); 
+      },
+	  {/if}
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

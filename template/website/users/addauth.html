@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        <div class="layui-form-item">
+            <label class="layui-form-label">账号</label>
+            <div class="layui-input-block">
+              <input name="title" type="text" disabled class="layui-input" id="title" value="{$info.u_phone}" readonly="readonly"   placeholder="账号">
+            </div>
+          </div>    
+
+		  <!--<div class="layui-form-item">
+            <label class="layui-form-label">群组权限</label>
+            <div class="layui-input-block">
+				{volist name="list" id="vo"}
+              <input type="checkbox" name="model" value="{$vo.id}" title="{$vo.title}" {range name="$vo.id" value="$access" type="in"}checked{/range}>
+             {/volist}
+            </div>
+          </div>-->
+
+
+
+		  <div class="layui-form-item">
+            <label class="layui-form-label">群组权限</label>
+            <div class="layui-input-block">
+				<div id="test2" class="demo-transfer"></div>
+            </div>
+          </div>
+
+
+            </div>
+          </div> 
+
+
+		  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+
+<script>
+layui.use(['transfer', 'layer', 'util'], function(){
+  var $ = layui.$
+  ,transfer = layui.transfer
+  ,layer = layui.layer
+  ,util = layui.util;
+ 
+  var data1 = [
+	{volist name="list" id="vo"}
+    {"value": "{$vo.id}", "title": "{$vo.title}"},
+	{/volist}
+  ]
+   dataselect  = [
+		{volist name="list" id="vo"}
+			{range name="$vo.id" value="$access" type="in"}"{$vo.id}",{/range}
+		{/volist}
+	]
+
+  //定义标题及数据源
+  transfer.render({
+    elem: '#test2'
+    ,title: ['群组', '已选']  //自定义标题
+    ,data: data1
+    ,height: 310 //定义高度
+	,value:dataselect
+	,id: 'key123' //定义唯一索引
+  })
+ 
+
+
+	$(".sub").click(function(){
+		//if(!$(".btn").hasClass("sub")){return false;}
+		var groupid  = "";
+		$.each($('input:checkbox'),function(){
+			if(this.checked){
+				groupid += $(this).val()+",";
+			}
+		});
+		console.log("============");
+		var getData = transfer.getData('key123'); //获取右侧数据
+		if(getData.length > 0){
+			for (var i=0;i<getData.length;i++){
+				groupid += getData[i].value+",";
+				
+			}
+		}
+
+		$.ajax({
+			type:"POST",
+			url:"{:url('users/addauth')}",
+			dataType:"json",
+			data:{ 
+				id:"{$info.u_id}",
+				groupid:groupid,
+			},
+			success:function(res){
+				if(res.status == 1){
+					window.parent.layer.closeAll();//关闭弹窗
+					window.parent.location.reload();
+				}else{
+					show_error(res.msg);
+				}
+			},
+			error:function(jqXHR){
+				console.log("Error: "+jqXHR.status);
+			},
+		});
+		
+	});
+
+});
+</script>
+</body>
+</html>

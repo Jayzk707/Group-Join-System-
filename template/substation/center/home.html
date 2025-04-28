@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	{include file="common_header" /}
+	{include file="common_top" /}
+	<style>
+	.action{border:1px solid #090; color:#090; font-weight:bolder;}
+	</style>
+</head>
+<body>
+
+
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+	
+	<div class="layui-col-md12">
+
+            <div class="layui-card">
+              <div class="layui-card-body">               
+				
+                    <ul class="layui-row layui-col-space10">
+					
+                      <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>当天销售额</h3>
+                          <p><cite>{$d_money_count|round=###,2}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>当天订单量</h3>
+                          <p><cite>{$d_bill_count}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>当天新用户数</h3>
+                          <p><cite>{$d_user_count}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>总销售额</h3>
+                          <p><cite>{$z_money_count|round=###,2}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>总订单量</h3>
+                          <p><cite>{$z_bill_count}</cite></p>
+                        </a>
+                      </li>
+					  
+					  <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>总用户数</h3>
+                          <p><cite>{$z_user_count}</cite></p>
+                        </a>
+                      </li>
+                      
+                      <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>纯利润</h3>
+                          <p><cite>{$qmoney|round=###,2}</cite></p>
+                        </a>
+                      </li>
+                      
+                      <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>分销未提余额</h3>
+                          <p><cite>{$fswtsmoney|round=###,2}</cite></p>
+                        </a>
+                      </li>
+                      
+                      
+                      <li class="layui-col-xs4">
+						<a href="javascript:;" onclick="#" class="layadmin-backlog-body">
+                          <h3>待处理提现金额</h3>
+                          <p><cite>{$dtxmoney|round=###,2}</cite></p>
+                        </a>
+                      </li>
+                      
+                      
+                      
+                      
+					  
+                    </ul>
+
+               
+              </div>
+            </div>
+      </div>
+		<div class="layui-col-md8"></div>
+    </div>
+  </div>
+
+
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+	<div class="layui-col-md12">
+            <div class="layui-card">
+              <div class="layui-card-body">               
+			
+
+<div id="container" style="height: 460px"></div>
+
+
+              
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  {include file="common_footer" /} 
+  <script type="text/javascript" src="/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const colors = ['#5470C6', '#EE6666'];
+option = {
+  color: colors,
+  tooltip: {
+    trigger: 'none',
+    axisPointer: {
+      type: 'cross'
+    }
+  },
+  legend: {},
+  grid: {
+    top: 70,
+    bottom: 50
+  },
+  xAxis: [
+    {
+      type: 'category',
+      axisTick: {
+        alignWithLabel: true
+      },
+      axisLine: {
+        onZero: false,
+        lineStyle: {
+          color: colors[1]
+        }
+      },
+      axisPointer: {
+        label: {
+          formatter: function (params) {
+            return (
+              '订单量  ' +
+              params.value +
+              (params.seriesData.length ? '：' + params.seriesData[0].data : '')
+            );
+          }
+        }
+      },
+    data: [
+        {volist name="timg" id="vo"}
+        '{$vo.date}',
+        {/volist}
+    ]
+    },
+    {
+      type: 'category',
+      axisTick: {
+        alignWithLabel: true
+      },
+      axisLine: {
+        onZero: false,
+        lineStyle: {
+          color: colors[0]
+        }
+      },
+      axisPointer: {
+        label: {
+          formatter: function (params) {
+            return (
+             '销售额  ' +
+              params.value +
+              (params.seriesData.length ? '：' + params.seriesData[0].data : '')
+            );
+          }
+        }
+      },
+    data: [
+        {volist name="timg" id="vo"}
+        '{$vo.date}',
+        {/volist}
+    ]
+    }
+  ],
+  yAxis: [
+    {
+      type: 'value'
+    }
+  ],
+  series: [
+    {
+      name: '销售额',
+      type: 'line',
+      xAxisIndex: 1,
+      smooth: true,
+      emphasis: {
+        focus: 'series'
+      },
+      data: [
+        {volist name="timg" id="vo"}
+        {$vo.money|round=###,2},
+        {/volist}
+          ]
+    },
+    {
+      name: '订单量',
+      type: 'line',
+      smooth: true,
+      emphasis: {
+        focus: 'series'
+      },
+      data: [
+        {volist name="timg" id="vo"}
+        {$vo.usercount|round=###,2},
+        {/volist}
+      ]
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1910 @@
+---------------------------------------------------------------
+[ 2023-06-27T23:14:04+08:00 ] 113.121.221.154 GET 5.xexszs.cloud/favicon.ico
+[运行时间：0.013614s] [吞吐率：73.45req/s] [内存消耗：1,432.59kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; 21091116C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20220805 MMWEBID/6260 MicroMessenger/8.0.27.2220(0x28001B59) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/index/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-06-27T23:14:05+08:00 ] 113.121.221.154 GET 5.xexszs.cloud/group.php/index/share/id/119/t/78ec8bb46eb04e497d7f653dc5897c43/time/1687878844.html
+[运行时间：0.035384s] [吞吐率：28.26req/s] [内存消耗：3,300.66kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; 21091116C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20220805 MMWEBID/6260 MicroMessenger/8.0.27.2220(0x28001B59) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/index/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  't' => '78ec8bb46eb04e497d7f653dc5897c43',
+  'time' => '1687878844',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=39  WHERE  (  wxg_id = 119 ) [ RunTime:0.000418s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-06-27T23:14:09+08:00 ] 113.121.221.154 POST 5.xexszs.cloud/group.php/index/paylist.html
+[运行时间：0.043864s] [吞吐率：22.80req/s] [内存消耗：3,019.27kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; 21091116C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20220805 MMWEBID/6260 MicroMessenger/8.0.27.2220(0x28001B59) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://5.xexszs.cloud',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/share/id/119/t/78ec8bb46eb04e497d7f653dc5897c43/time/1687878844.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=8os0gkhadjqgm873oda01eele7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000837s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001881s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_119_1687878849' and su_id = 18 and wxg_id = 119 ) LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 119 , 13 , '18_119_1687878849' , 66.66 , '2023-06-27 23:14:09' , 1 , 70 , 46.662 , 19.998) [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:15:03+08:00 ] 43.136.173.178 GET hysdy.mucuan.cloud/group.php/index/notify/orderid/20_83_1687875222/id/83.html?money=3.99&name=product&out_trade_no=20_83_1687875222&pid=1042&trade_no=2023062722134298042&trade_status=TRADE_SUCCESS&type=wxpay&sign=dce3669df11135b0c2c1f1dd609f8c8a&sign_type=MD5
+[运行时间：0.028956s] [吞吐率：34.54req/s] [内存消耗：2,814.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_83_1687875222',
+  'pid' => '1042',
+  'trade_no' => '2023062722134298042',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => 'dce3669df11135b0c2c1f1dd609f8c8a',
+  'sign_type' => 'MD5',
+  'orderid' => '20_83_1687875222',
+  'id' => '83',
+)
+[ info ] [ RUN ] app\group\controller\Index->notify[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.003573s ]
+[ sql ] [ SQL ] UPDATE `web_bill`  SET `bl_status`=2,`bl_zfaddtime`='2023-06-27 23:15:03'  WHERE  (  bl_sncode = '20_83_1687875222' and bl_status = 1 ) [ RunTime:0.001600s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:15:05+08:00 ] 180.163.28.109 GET 5.xexszs.cloud/group.php/index/share/id/119/t/78ec8bb46eb04e497d7f653dc5897c43/time/1687878844.html
+[运行时间：0.045057s] [吞吐率：22.19req/s] [内存消耗：3,298.65kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  't' => '78ec8bb46eb04e497d7f653dc5897c43',
+  'time' => '1687878844',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=40  WHERE  (  wxg_id = 119 ) [ RunTime:0.000757s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-06-27T23:24:02+08:00 ] 43.136.173.178 GET nanyu.mensxs.cloud/group.php/index/notify/orderid/24_120_1687875751/id/120.html?money=9.9&name=product&out_trade_no=24_120_1687875751&pid=1026&trade_no=2023062722223276737&trade_status=TRADE_SUCCESS&type=wxpay&sign=5d35a9b3b41b36c7697dadfea6e65368&sign_type=MD5
+[运行时间：0.031225s] [吞吐率：32.03req/s] [内存消耗：2,814.77kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '9.9',
+  'name' => 'product',
+  'out_trade_no' => '24_120_1687875751',
+  'pid' => '1026',
+  'trade_no' => '2023062722223276737',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '5d35a9b3b41b36c7697dadfea6e65368',
+  'sign_type' => 'MD5',
+  'orderid' => '24_120_1687875751',
+  'id' => '120',
+)
+[ info ] [ RUN ] app\group\controller\Index->notify[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001919s ]
+[ sql ] [ SQL ] UPDATE `web_bill`  SET `bl_status`=2,`bl_zfaddtime`='2023-06-27 23:24:02'  WHERE  (  bl_sncode = '24_120_1687875751' and bl_status = 1 ) [ RunTime:0.001591s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:36:18+08:00 ] 113.235.147.47 GET nanyu.mensxs.cloud/group.php/index/index/id/118.html
+[运行时间：0.029399s] [吞吐率：34.01req/s] [内存消耗：2,997.41kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'qzhw-request-key' => '45598457-9E77-437B-A0A6-DD0EDEE98F29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'qzhw-wnshtml-webviewsupport' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'qq_locale_id=2052',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.9.50.611 V1_IPH_SQ_8.9.50_1_APP_A Pixel/1284 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537155063 NewProzy/1 Core/WKWebView Device/Apple(iPhone 13 Pro Max) NetType/WIFI QBWebViewType/1 WKType/1',
+  'webso-cache-load-time' => '1687880177382',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '118',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001976s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 118 ) LIMIT 1 [ RunTime:0.000743s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:36:18+08:00 ] 113.235.147.47 GET nanyu.mensxs.cloud/group.php/index/turl/id/118.html
+[运行时间：0.028958s] [吞吐率：34.53req/s] [内存消耗：2,845.74kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'qq_locale_id=2052',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/8.9.50.611 V1_IPH_SQ_8.9.50_1_APP_A Pixel/1284 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537155063 NewProzy/1 Core/WKWebView Device/Apple(iPhone 13 Pro Max) NetType/WIFI QBWebViewType/1 WKType/1',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://nanyu.mensxs.cloud/group.php/index/index/id/118.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '118',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001908s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 118 ) LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 51 ) LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:36:36+08:00 ] 113.235.147.47 GET nanyu.mensxs.cloud/group.php/index/index/id/118.html
+[运行时间：0.025543s] [吞吐率：39.15req/s] [内存消耗：2,995.68kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.36(0x18002429) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '118',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 118 ) LIMIT 1 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:36:37+08:00 ] 113.235.147.47 GET nanyu.mensxs.cloud/group.php/index/turl/id/118.html
+[运行时间：0.029867s] [吞吐率：33.48req/s] [内存消耗：2,844.81kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'nanyu.mensxs.cloud',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.36(0x18002429) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://nanyu.mensxs.cloud/group.php/index/index/id/118.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '118',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001907s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 118 ) LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 51 ) LIMIT 1 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:44:12+08:00 ] 42.88.7.181 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.033541s] [吞吐率：29.81req/s] [内存消耗：3,314.20kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.38(0x1800262b) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=278  WHERE  (  wxg_id = 85 ) [ RunTime:0.000528s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-06-27T23:44:21+08:00 ] 42.88.7.181 POST hysdy.mucuan.cloud/group.php/index/paylist.html
+[运行时间：0.037662s] [吞吐率：26.55req/s] [内存消耗：3,023.93kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.38(0x1800262b) NetType/4G Language/zh_CN',
+  'connection' => 'keep-alive',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html',
+  'content-length' => '5',
+  'cookie' => 'PHPSESSID=snkf1h065jjeotn7u0icnrkbp5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001846s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 20 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (15) ) [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 44 ) LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_85_1687880661' and su_id = 20 and wxg_id = 85 ) LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (44 , 20 , 85 , 15 , '20_85_1687880661' , 3.99 , '2023-06-27 23:44:21' , 1 , 100 , 3.99 , 0) [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:44:31+08:00 ] 43.136.173.178 GET hysdy.mucuan.cloud/group.php/index/notify/orderid/20_85_1687880661/id/85.html?money=3.99&name=product&out_trade_no=20_85_1687880661&pid=1042&trade_no=2023062723442292608&trade_status=TRADE_SUCCESS&type=wxpay&sign=8d55839fabe9d599b91da0bbf33fe0ab&sign_type=MD5
+[运行时间：0.037242s] [吞吐率：26.85req/s] [内存消耗：2,899.39kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1687880661',
+  'pid' => '1042',
+  'trade_no' => '2023062723442292608',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '8d55839fabe9d599b91da0bbf33fe0ab',
+  'sign_type' => 'MD5',
+  'orderid' => '20_85_1687880661',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->notify[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001851s ]
+[ sql ] [ SQL ] UPDATE `web_bill`  SET `bl_status`=2,`bl_zfaddtime`='2023-06-27 23:44:31'  WHERE  (  bl_sncode = '20_85_1687880661' and bl_status = 1 ) [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '20_85_1687880661' ) LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` `wxg` INNER JOIN `web_distribution` `d` ON `d`.`du_id`=`wxg`.`du_id` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.002019s ]
+[ sql ] [ SQL ] UPDATE `web_distribution`  SET `du_money`=147.63  WHERE  (  du_id = 44 ) [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 20 ) LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:44:31+08:00 ] 42.88.7.181 GET hysdy.mucuan.cloud/group.php/index/successok/id/85.html?money=3.99&name=product&out_trade_no=20_85_1687880661&pid=1042&trade_no=2023062723442292608&trade_status=TRADE_SUCCESS&type=wxpay&sign=8d55839fabe9d599b91da0bbf33fe0ab&sign_type=MD5
+[运行时间：0.042608s] [吞吐率：23.47req/s] [内存消耗：3,241.05kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'successok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=snkf1h065jjeotn7u0icnrkbp5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.38(0x1800262b) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1687880661',
+  'pid' => '1042',
+  'trade_no' => '2023062723442292608',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '8d55839fabe9d599b91da0bbf33fe0ab',
+  'sign_type' => 'MD5',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->successok[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/successok.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:45:31+08:00 ] 180.163.29.79 GET hysdy.mucuan.cloud/group.php/index/successok/id/85.html?money=3.99&name=product&out_trade_no=20_85_1687880661&pid=1042&trade_no=2023062723442292608&trade_status=TRADE_SUCCESS&type=wxpay&sign=8d55839fabe9d599b91da0bbf33fe0ab&sign_type=MD5
+[运行时间：0.044075s] [吞吐率：22.69req/s] [内存消耗：3,240.23kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'successok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1687880661',
+  'pid' => '1042',
+  'trade_no' => '2023062723442292608',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '8d55839fabe9d599b91da0bbf33fe0ab',
+  'sign_type' => 'MD5',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->successok[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/successok.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002183s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:46:02+08:00 ] 111.12.234.117 GET hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html
+[运行时间：0.035599s] [吞吐率：28.09req/s] [内存消耗：3,315.07kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; PDVM00 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230504 MMWEBID/6222 MicroMessenger/8.0.37.2380(0x2800255B) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+  't' => '43b2a4f1f4b6d1ce334d481e480c00fb',
+  'time' => '1687684766',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000565s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001791s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 85 ) LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=279  WHERE  (  wxg_id = 85 ) [ RunTime:0.000425s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-06-27T23:46:06+08:00 ] 111.12.234.117 GET hysdy.mucuan.cloud/favicon.ico
+[运行时间：0.014706s] [吞吐率：68.00req/s] [内存消耗：1,433.30kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; PDVM00 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230504 MMWEBID/6222 MicroMessenger/8.0.37.2380(0x2800255B) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://hysdy.mucuan.cloud/group.php/index/share/id/85/t/43b2a4f1f4b6d1ce334d481e480c00fb/time/1687684766.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=d854c9k9scq9khjgg43i36lpq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-06-27T23:48:03+08:00 ] 43.136.173.178 GET hysdy.mucuan.cloud/group.php/index/notify/orderid/20_85_1687880661/id/85.html?money=3.99&name=product&out_trade_no=20_85_1687880661&pid=1042&trade_no=2023062723442292608&trade_status=TRADE_SUCCESS&type=wxpay&sign=8d55839fabe9d599b91da0bbf33fe0ab&sign_type=MD5
+[运行时间：0.027994s] [吞吐率：35.72req/s] [内存消耗：2,814.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1687880661',
+  'pid' => '1042',
+  'trade_no' => '2023062723442292608',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '8d55839fabe9d599b91da0bbf33fe0ab',
+  'sign_type' => 'MD5',
+  'orderid' => '20_85_1687880661',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->notify[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001753s ]
+[ sql ] [ SQL ] UPDATE `web_bill`  SET `bl_status`=2,`bl_zfaddtime`='2023-06-27 23:48:03'  WHERE  (  bl_sncode = '20_85_1687880661' and bl_status = 1 ) [ RunTime:0.001439s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:48:17+08:00 ] 180.163.29.79 GET nanyu.mensxs.cloud/group.php/index/index/id/121.html
+[运行时间：0.030045s] [吞吐率：33.28req/s] [内存消耗：2,995.36kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'nanyu.mensxs.cloud',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '121',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 121 ) LIMIT 1 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:51:02+08:00 ] 43.136.173.178 GET hysdy.mucuan.cloud/group.php/index/notify/orderid/20_85_1687880661/id/85.html?money=3.99&name=product&out_trade_no=20_85_1687880661&pid=1042&trade_no=2023062723442292608&trade_status=TRADE_SUCCESS&type=wxpay&sign=8d55839fabe9d599b91da0bbf33fe0ab&sign_type=MD5
+[运行时间：0.032018s] [吞吐率：31.23req/s] [内存消耗：2,814.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hysdy.mucuan.cloud',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'money' => '3.99',
+  'name' => 'product',
+  'out_trade_no' => '20_85_1687880661',
+  'pid' => '1042',
+  'trade_no' => '2023062723442292608',
+  'trade_status' => 'TRADE_SUCCESS',
+  'type' => 'wxpay',
+  'sign' => '8d55839fabe9d599b91da0bbf33fe0ab',
+  'sign_type' => 'MD5',
+  'orderid' => '20_85_1687880661',
+  'id' => '85',
+)
+[ info ] [ RUN ] app\group\controller\Index->notify[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001850s ]
+[ sql ] [ SQL ] UPDATE `web_bill`  SET `bl_status`=2,`bl_zfaddtime`='2023-06-27 23:51:02'  WHERE  (  bl_sncode = '20_85_1687880661' and bl_status = 1 ) [ RunTime:0.001372s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:51:57+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php
+[运行时间：0.019004s] [吞吐率：52.62req/s] [内存消耗：2,063.62kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Index.php ]
+[ info ] [ VIEW ] template/fenxiao/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-06-27T23:52:05+08:00 ] 60.24.192.159 POST hua.amenm.cn/fenxiao.php/index/login.html
+[运行时间：0.031716s] [吞吐率：31.53req/s] [内存消耗：3,470.84kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hua.amenm.cn',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+)
+[ info ] [ PARAM ] array (
+  'username' => '88886666',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\fenxiao\controller\Index->login[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001817s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_name = '88886666' and du_pass = '123456' ) LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001772s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:06+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/center/index.html
+[运行时间：0.035103s] [吞吐率：28.49req/s] [内存消耗：3,649.48kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Center->Index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Center.php ]
+[ info ] [ VIEW ] template/fenxiao/center/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:06+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/center/home.html
+[运行时间：0.037046s] [吞吐率：26.99req/s] [内存消耗：3,074.06kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Center->home[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/fenxiao/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'd_money_count',
+  2 => 'd_bill_count',
+  3 => 'z_money_count',
+  4 => 'z_bill_count',
+  5 => 'timg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 ) LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-27 00:00:00' AND '2023-06-28 00:00:00' LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-06-27 00:00:00' AND '2023-06-28 00:00:00' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-21 00:00:00' AND '2023-06-22 00:00:00' LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-22 00:00:00' AND '2023-06-23 00:00:00' LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-23 00:00:00' AND '2023-06-24 00:00:00' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-24 00:00:00' AND '2023-06-25 00:00:00' LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-25 00:00:00' AND '2023-06-26 00:00:00' LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-26 00:00:00' AND '2023-06-27 00:00:00' LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and du_id = 31 )  AND `bl_addtime` BETWEEN '2023-06-27 00:00:00' AND '2023-06-28 00:00:00' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:13+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/index.html
+[运行时间：0.048673s] [吞吐率：20.55req/s] [内存消耗：3,981.85kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'd_info',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001912s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001726s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_wxgroup` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  du_id = 31 ) ORDER BY `wxg_id` DESC LIMIT 0,20 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:15+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html
+[运行时间：0.038400s] [吞吐率：26.04req/s] [内存消耗：3,895.76kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/edit.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'info',
+  3 => 'substationPaylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001762s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 ) [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:34+08:00 ] 60.24.192.159 POST hua.amenm.cn/fenxiao.php/upload/uploadface.html
+[运行时间：0.015657s] [吞吐率：63.87req/s] [内存消耗：1,689.80kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'upload',
+    2 => 'uploadface',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '435270',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfWQBySTtSLvKWubv',
+  'origin' => 'http://hua.amenm.cn',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\fenxiao\controller\Upload->uploadface[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-06-27T23:52:37+08:00 ] 60.24.192.159 POST hua.amenm.cn/fenxiao.php/wxgroup/edit.html
+[运行时间：0.032824s] [吞吐率：30.47req/s] [内存消耗：3,504.34kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '2648',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hua.amenm.cn',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  'wxg_headimg' => '/upload/face/1687792488.jpeg',
+  'title' => '知识付费',
+  'subtitle' => '解封微信方案永久使用，一次购买终身使用，一生受益',
+  'qjj_title' => '微信解封方案，方式，方法,微信加人不封号秘诀',
+  'qjj_content' => '',
+  'redcount' => '10万+',
+  'dzcount' => '3659',
+  'xxcount' => '665',
+  'buttitle' => '加入群，学习微信防封教程',
+  'status' => '1',
+  'money' => '66.66',
+  'kuai_title' => '常见问题',
+  'kuai_content' => '1.解封微信，不用好友，不求人，解封微信，无限解封
+2.微信号如何防止被封号，如何防止封号。
+3.如何自救，微信号，怎么养号，异常怎么正确处理',
+  'qunyou_content' => '清澈的眼眸----真的太感谢群主了----128
+真的太感谢群主了----323
+真的太感谢群主了----666
+真的太感谢群主了----32
+真的太感谢群主了----65',
+  'wxg_adurl' => '/upload/face/1687881154.jpeg',
+  'headimg' => 'za',
+  'wxg_kefu' => '',
+  'wxg_content' => '',
+  'kuai_title1' => '',
+  'kuai_imgs1' => '<p style="text-align: center;">微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程</p><p><br/></p>',
+  'wxg_jhao' => '1',
+  'wxg_jhaoimg' => '',
+  'wxg_jhaotitle' => 'VIP专属客服',
+  'wxg_jhaocontent' => '出现不能付款，不能入群等问题，请联系我！看到信息发回',
+  'paylists' => '13,',
+  'wxonoff' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001952s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_money`=66.66,`wxg_img`='/upload/face/1687792488.jpeg',`wxg_title`='知识付费',`wxg_subtitle`='解封微信方案永久使用，一次购买终身使用，一生受益',`wxg_status`=1,`wxg_addtime`='2023-06-27 23:52:37',`wxg_qjj_title`='微信解封方案，方式，方法,微信加人不封号秘诀',`wxg_qjj_content`='',`wxg_buttitle`='加入群，学习微信防封教程',`wxg_redcount`='10万+',`wxg_dzcount`=3659,`wxg_xxcount`=665,`wxg_kuai_title`='常见问题',`wxg_kuai_content`='1.解封微信，不用好友，不求人，解封微信，无限解封\n2.微信号如何防止被封号，如何防止封号。\n3.如何自救，微信号，怎么养号，异常怎么正确处理',`wxg_qunyou_content`='清澈的眼眸----真的太感谢群主了----128\n真的太感谢群主了----323\n真的太感谢群主了----666\n真的太感谢群主了----32\n真的太感谢群主了----65',`wxg_adurl`='/upload/face/1687881154.jpeg',`wxg_headfile`='za',`wxg_kefu`='',`wxg_content`='',`wxg_kuai_title1`='',`wxg_kuai_imgs1`='<p style=\"text-align: center;\">微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程</p><p><br/></p>',`wxg_jhao`=1,`wxg_jhaoimg`='',`wxg_jhaotitle`='VIP专属客服',`wxg_jhaocontent`='出现不能付款，不能入群等问题，请联系我！看到信息发回',`wxg_paylists`='13,',`wxonoff`=1  WHERE  (  wxg_id = 119 ) [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:37+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/index.html
+[运行时间：0.045981s] [吞吐率：21.75req/s] [内存消耗：3,982.28kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'd_info',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001894s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_wxgroup` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  du_id = 31 ) ORDER BY `wxg_id` DESC LIMIT 0,20 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:52:38+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html
+[运行时间：0.040600s] [吞吐率：24.63req/s] [内存消耗：3,895.76kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/edit.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'info',
+  3 => 'substationPaylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 ) [ RunTime:0.000530s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:54:43+08:00 ] 60.24.192.159 POST hua.amenm.cn/fenxiao.php/wxgroup/edit.html
+[运行时间：0.034983s] [吞吐率：28.59req/s] [内存消耗：3,507.28kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '3038',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hua.amenm.cn',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  'wxg_headimg' => '/upload/face/1687792488.jpeg',
+  'title' => '知识付费',
+  'subtitle' => '解封微信方案永久使用，一次购买终身使用，一生受益',
+  'qjj_title' => '微信解封方案，方式，方法,微信加人不封号秘诀',
+  'qjj_content' => '',
+  'redcount' => '10万+',
+  'dzcount' => '3659',
+  'xxcount' => '665',
+  'buttitle' => '加入群，学习微信防封教程',
+  'status' => '1',
+  'money' => '66.66',
+  'kuai_title' => '常见问题',
+  'kuai_content' => '1.解封微信，不用好友，不求人，解封微信，无限解封
+2.微信号如何防止被封号，如何防止封号。
+3.如何自救，微信号，怎么养号，异常怎么正确处理',
+  'qunyou_content' => '清澈的眼眸----真的太感谢群主了----128
+真的太感谢群主了----323
+真的太感谢群主了----666
+真的太感谢群主了----32
+真的太感谢群主了----65',
+  'wxg_adurl' => '/upload/face/1687881154.jpeg',
+  'headimg' => 'za',
+  'wxg_kefu' => '',
+  'wxg_content' => '',
+  'kuai_title1' => '微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程',
+  'kuai_imgs1' => '<p style="text-align: center;"><img src="/ueditor/php/upload/image/20230627/1687881272972703.jpg" title="1687881272972703.jpg" alt="微信图片_20230627235423.jpg"/><img src="/ueditor/php/upload/image/20230627/1687881276962166.jpg" title="1687881276962166.jpg" alt="微信图片_20230627235424.jpg"/></p><p><br/></p>',
+  'wxg_jhao' => '1',
+  'wxg_jhaoimg' => '',
+  'wxg_jhaotitle' => 'VIP专属客服',
+  'wxg_jhaocontent' => '出现不能付款，不能入群等问题，请联系我！看到信息发回',
+  'paylists' => '13,',
+  'wxonoff' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000892s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001781s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001824s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_money`=66.66,`wxg_img`='/upload/face/1687792488.jpeg',`wxg_title`='知识付费',`wxg_subtitle`='解封微信方案永久使用，一次购买终身使用，一生受益',`wxg_status`=1,`wxg_addtime`='2023-06-27 23:54:43',`wxg_qjj_title`='微信解封方案，方式，方法,微信加人不封号秘诀',`wxg_qjj_content`='',`wxg_buttitle`='加入群，学习微信防封教程',`wxg_redcount`='10万+',`wxg_dzcount`=3659,`wxg_xxcount`=665,`wxg_kuai_title`='常见问题',`wxg_kuai_content`='1.解封微信，不用好友，不求人，解封微信，无限解封\n2.微信号如何防止被封号，如何防止封号。\n3.如何自救，微信号，怎么养号，异常怎么正确处理',`wxg_qunyou_content`='清澈的眼眸----真的太感谢群主了----128\n真的太感谢群主了----323\n真的太感谢群主了----666\n真的太感谢群主了----32\n真的太感谢群主了----65',`wxg_adurl`='/upload/face/1687881154.jpeg',`wxg_headfile`='za',`wxg_kefu`='',`wxg_content`='',`wxg_kuai_title1`='微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程',`wxg_kuai_imgs1`='<p style=\"text-align: center;\"><img src=\"/ueditor/php/upload/image/20230627/1687881272972703.jpg\" title=\"1687881272972703.jpg\" alt=\"微信图片_20230627235423.jpg\"/><img src=\"/ueditor/php/upload/image/20230627/1687881276962166.jpg\" title=\"1687881276962166.jpg\" alt=\"微信图片_20230627235424.jpg\"/></p><p><br/></p>',`wxg_jhao`=1,`wxg_jhaoimg`='',`wxg_jhaotitle`='VIP专属客服',`wxg_jhaocontent`='出现不能付款，不能入群等问题，请联系我！看到信息发回',`wxg_paylists`='13,',`wxonoff`=1  WHERE  (  wxg_id = 119 ) [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:54:43+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/index.html
+[运行时间：0.052198s] [吞吐率：19.16req/s] [内存消耗：3,982.39kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'd_info',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_wxgroup` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  du_id = 31 ) ORDER BY `wxg_id` DESC LIMIT 0,20 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:54:56+08:00 ] 60.24.192.159 GET 5.xexszs.cloud/group.php/index/index/id/119.html
+[运行时间：0.027716s] [吞吐率：36.08req/s] [内存消耗：2,997.26kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ANA-AN00 Build/HUAWEIANA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230405 MMWEBID/3481 MicroMessenger/8.0.35.2360(0x2800235D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=l8eshlf54qdmm04mpl4si4jei3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001843s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:54:56+08:00 ] 60.24.192.159 GET 5.xexszs.cloud/group.php/index/turl/id/119.html
+[运行时间：0.033637s] [吞吐率：29.73req/s] [内存消耗：2,961.87kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ANA-AN00 Build/HUAWEIANA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230405 MMWEBID/3481 MicroMessenger/8.0.35.2360(0x2800235D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => '*/*',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/index/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=l8eshlf54qdmm04mpl4si4jei3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001926s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:54:56+08:00 ] 60.24.192.159 GET 5.xexszs.cloud/favicon.ico
+[运行时间：0.014328s] [吞吐率：69.79req/s] [内存消耗：1,432.88kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ANA-AN00 Build/HUAWEIANA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230405 MMWEBID/3481 MicroMessenger/8.0.35.2360(0x2800235D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/index/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=l8eshlf54qdmm04mpl4si4jei3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-06-27T23:54:57+08:00 ] 60.24.192.159 GET 5.xexszs.cloud/group.php/index/share/id/119/t/eebb997560819716be91fea1ad041a6f/time/1687881296.html
+[运行时间：0.032466s] [吞吐率：30.80req/s] [内存消耗：3,301.70kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ANA-AN00 Build/HUAWEIANA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5127 MMWEBSDK/20230405 MMWEBID/3481 MicroMessenger/8.0.35.2360(0x2800235D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://5.xexszs.cloud/group.php/index/index/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=l8eshlf54qdmm04mpl4si4jei3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  't' => 'eebb997560819716be91fea1ad041a6f',
+  'time' => '1687881296',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001752s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=41  WHERE  (  wxg_id = 119 ) [ RunTime:0.000472s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-06-27T23:55:18+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html
+[运行时间：0.041544s] [吞吐率：24.07req/s] [内存消耗：3,896.36kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/edit.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'info',
+  3 => 'substationPaylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001676s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 ) [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:55:47+08:00 ] 60.24.192.159 POST hua.amenm.cn/fenxiao.php/wxgroup/edit.html
+[运行时间：0.032505s] [吞吐率：30.76req/s] [内存消耗：3,506.88kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '3029',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://hua.amenm.cn',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/edit/id/119.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  'wxg_headimg' => '/upload/face/1687792488.jpeg',
+  'title' => '知识付费',
+  'subtitle' => '解封微信方案永久使用，一次购买终身使用，一生受益',
+  'qjj_title' => '微信解封方案，方式，方法,微信加人不封号秘诀',
+  'qjj_content' => '',
+  'redcount' => '10万+',
+  'dzcount' => '3659',
+  'xxcount' => '665',
+  'buttitle' => '加入群，学习微信防封教程',
+  'status' => '1',
+  'money' => '66.66',
+  'kuai_title' => '常见问题',
+  'kuai_content' => '1.解封微信，不用好友，不求人，解封微信，无限解封
+2.微信号如何防止被封号，如何防止封号。
+3.如何自救，微信号，怎么养号，异常怎么正确处理',
+  'qunyou_content' => '真的好用----真的太感谢群主了----128
+真的太感谢群主了----323
+真的太感谢群主了----666
+真的太感谢群主了----32
+真的太感谢群主了----65',
+  'wxg_adurl' => '/upload/face/1687881154.jpeg',
+  'headimg' => 'za',
+  'wxg_kefu' => '',
+  'wxg_content' => '',
+  'kuai_title1' => '微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程',
+  'kuai_imgs1' => '<p style="text-align: center;"><img src="/ueditor/php/upload/image/20230627/1687881272972703.jpg" title="1687881272972703.jpg" alt="微信图片_20230627235423.jpg"/><img src="/ueditor/php/upload/image/20230627/1687881276962166.jpg" title="1687881276962166.jpg" alt="微信图片_20230627235424.jpg"/></p><p><br/></p>',
+  'wxg_jhao' => '1',
+  'wxg_jhaoimg' => '',
+  'wxg_jhaotitle' => 'VIP专属客服',
+  'wxg_jhaocontent' => '出现不能付款，不能入群等问题，请联系我！看到信息发回',
+  'paylists' => '13,',
+  'wxonoff' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->edit[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001789s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001524s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_money`=66.66,`wxg_img`='/upload/face/1687792488.jpeg',`wxg_title`='知识付费',`wxg_subtitle`='解封微信方案永久使用，一次购买终身使用，一生受益',`wxg_status`=1,`wxg_addtime`='2023-06-27 23:55:47',`wxg_qjj_title`='微信解封方案，方式，方法,微信加人不封号秘诀',`wxg_qjj_content`='',`wxg_buttitle`='加入群，学习微信防封教程',`wxg_redcount`='10万+',`wxg_dzcount`=3659,`wxg_xxcount`=665,`wxg_kuai_title`='常见问题',`wxg_kuai_content`='1.解封微信，不用好友，不求人，解封微信，无限解封\n2.微信号如何防止被封号，如何防止封号。\n3.如何自救，微信号，怎么养号，异常怎么正确处理',`wxg_qunyou_content`='真的好用----真的太感谢群主了----128\n真的太感谢群主了----323\n真的太感谢群主了----666\n真的太感谢群主了----32\n真的太感谢群主了----65',`wxg_adurl`='/upload/face/1687881154.jpeg',`wxg_headfile`='za',`wxg_kefu`='',`wxg_content`='',`wxg_kuai_title1`='微信解封方案，方式，方法，多年的经验团队测试后，研究一套流程',`wxg_kuai_imgs1`='<p style=\"text-align: center;\"><img src=\"/ueditor/php/upload/image/20230627/1687881272972703.jpg\" title=\"1687881272972703.jpg\" alt=\"微信图片_20230627235423.jpg\"/><img src=\"/ueditor/php/upload/image/20230627/1687881276962166.jpg\" title=\"1687881276962166.jpg\" alt=\"微信图片_20230627235424.jpg\"/></p><p><br/></p>',`wxg_jhao`=1,`wxg_jhaoimg`='',`wxg_jhaotitle`='VIP专属客服',`wxg_jhaocontent`='出现不能付款，不能入群等问题，请联系我！看到信息发回',`wxg_paylists`='13,',`wxonoff`=1  WHERE  (  wxg_id = 119 ) [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:55:47+08:00 ] 60.24.192.159 GET hua.amenm.cn/fenxiao.php/wxgroup/index.html
+[运行时间：0.049031s] [吞吐率：20.40req/s] [内存消耗：3,982.46kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fenxiao',
+    1 => 'wxgroup',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.amenm.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309001c) XWEB/6939',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://hua.amenm.cn/fenxiao.php/wxgroup/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh',
+  'cookie' => 'PHPSESSID=219m8fjot97sdrsvjf1836llq2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\fenxiao\controller\Wxgroup->index[ /www/wwwroot/hua.amenm.cn/application/fenxiao/controller/Wxgroup.php ]
+[ info ] [ VIEW ] template/fenxiao/wxgroup/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'd_info',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_wxgroup` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  du_id = 31 ) ORDER BY `wxg_id` DESC LIMIT 0,20 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 119 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT SUM(bl_scalemoney) AS tp_sum FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  du_id = 31 and wxg_id = 71 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2023-06-27T23:55:57+08:00 ] 180.163.28.114 GET 5.xexszs.cloud/group.php/index/share/id/119/t/eebb997560819716be91fea1ad041a6f/time/1687881296.html
+[运行时间：0.038185s] [吞吐率：26.19req/s] [内存消耗：3,299.66kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '5.xexszs.cloud',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '119',
+  't' => 'eebb997560819716be91fea1ad041a6f',
+  'time' => '1687881296',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/hua.amenm.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=hua;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001765s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 119 ) LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=42  WHERE  (  wxg_id = 119 ) [ RunTime:0.000477s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/hua.amenm.cn/application/group/controller/Index.php:397]

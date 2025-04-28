@@ -1,0 +1,180 @@
+---------------------------------------------------------------
+[ 2023-07-14T08:30:29+08:00 ] 111.7.96.171 GET hua.gsxsg.cn/
+[运行时间：0.021845s] [吞吐率：45.78req/s] [内存消耗：1,701.24kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.gsxsg.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-14T08:30:29+08:00 ] 111.7.96.171 GET hua.gsxsg.cn/favicon.ico
+[运行时间：0.013712s] [吞吐率：72.93req/s] [内存消耗：1,432.41kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hua.gsxsg.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-14T08:30:33+08:00 ] 111.7.96.152 GET hys.csa7.cn/
+[运行时间：0.013223s] [吞吐率：75.63req/s] [内存消耗：1,701.40kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hys.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-14T08:30:33+08:00 ] 111.7.96.152 GET hys.csa7.cn/favicon.ico
+[运行时间：0.012927s] [吞吐率：77.36req/s] [内存消耗：1,432.36kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hys.csa7.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-14T08:31:02+08:00 ] 36.99.136.128 GET 4.xexszs.cloud/
+[运行时间：0.014483s] [吞吐率：69.05req/s] [内存消耗：1,701.47kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '4.xexszs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-07-14T08:31:02+08:00 ] 36.99.136.128 GET 4.xexszs.cloud/favicon.ico
+[运行时间：0.012417s] [吞吐率：80.53req/s] [内存消耗：1,432.37kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/hua.amenm.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '4.xexszs.cloud',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'en;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'sec-gpc' => '1',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

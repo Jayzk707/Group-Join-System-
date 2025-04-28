@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+          	<div class="layui-box">
+			 </div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35">序号</th>
+                <th>状态</th>
+				<th>分销员(余额)</th>
+                <th>提现金额</th>
+                <th>添加时间</th>
+                <th>审核时间</th>
+                <th>审核备注</th>
+				{if($__APS__.del or $__APS__.edit)}<th width="100">管理</th>{/if}
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.st_id}">
+					<td class="text-center">{$vo.st_id}</td>
+                    <td>
+                    {if $vo.st_status==1}<span class="layui-badge layui-bg-blue">审核中</span>
+                    {elseif $vo.st_status==3}<span class="layui-badge layui-bg-black">拒绝</span>
+                    {elseif $vo.st_status==4}<span class="layui-badge layui-bg-green">已打款</span>{/if}
+                    </td>
+                    <td><span class="layui-badge-rim">{$vo.su_title}({$vo.su_fz_money})</span></td>
+                    <td>{$vo.su_money}</td>
+                    <td>{$vo.su_addtime}</td>
+                    <td>{$vo.su_shtime}</td>
+                    <td>{$vo.su_content}</td>
+					<td>
+							<div class="layui-btn-group">
+                            	
+								{if($__APS__.del)}<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('tixian/del',array('id'=>$vo.st_id))}','tr_{$vo.st_id}')"><i class="layui-icon">&#xe640;</i></button>{/if}
+                                {if($__APS__.edit)}{if $vo.su_status==1}<button class="layui-btn layui-btn-sm" data-type="edit" data-id="{$vo.st_id}"><i class="layui-icon">&#xe642;</i></button>{/if}{/if}
+							</div>
+					</td>
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+		  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+
+	 
+	  edit: function(){
+		var id = $(this).data('id');
+		var url = '{:url('tixian/edit',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '审核提现信息'
+          ,content: url
+          ,area: ['650px', '655px']
+        }); 
+      },
+	 
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

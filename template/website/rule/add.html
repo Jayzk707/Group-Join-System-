@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+		
+		  <div class="layui-form-item">
+            <label class="layui-form-label">权限分类</label>
+            <div class="layui-input-block">
+				<select name="said" id="said">
+					<option value="0"> === 请选择权限分类 === </option>
+					{volist name="list" id="vo"}
+						<option value="{$vo.id}">{$vo.title}</option>
+					{/volist}
+				</select>
+            </div>
+          </div> 		
+		
+        <div class="layui-form-item">
+            <label class="layui-form-label">权限名称</label>
+            <div class="layui-input-block">
+              <input name="title" type="text" class="layui-input" id="title"   placeholder="权限名称">
+            </div>
+          </div>    
+          <div class="layui-form-item">
+            <label class="layui-form-label">路径</label>
+            <div class="layui-input-block">
+              <input name="name" type="text" class="layui-input" id="name"   placeholder="路径">
+            </div>
+          </div> 
+
+			<div class="layui-form-item">
+            <label class="layui-form-label">规则</label>
+            <div class="layui-input-block">
+              <input name="condition" type="text" class="layui-input" id="condition"   placeholder="规则">
+            </div>
+          </div> 	
+
+			<div class="layui-form-item">
+            <label class="layui-form-label">分类排序</label>
+            <div class="layui-input-block">
+              <input name="sort" type="number" class="layui-input" id="sort"   placeholder="默认999">
+            </div>
+          </div> 		  
+          
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+              <input type="radio" name="status" value="1" title="启用" checked="">
+              <input type="radio" name="status" value="2" title="禁用">
+            </div>
+          </div>       
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	var title     = $("#title").val();
+	var name      = $("#name").val();
+	var condition = $("#condition").val();
+	var status    = $("input[name='status']:checked").val();
+	var said      = $("#said").val();
+	var _sort  = $("#sort").val();
+	
+	
+	if(said==0){
+		show_error("权限分类不能为空!");
+		return false;
+	}
+	
+	if(title==""){
+		show_error("权限名称不能为空!");
+		return false;
+	}
+	
+	if(name==""){
+		show_error("路径不能为空!");
+		return false;
+	}
+	
+	if(_sort==""){
+		_sort = 999;
+	}
+
+	$.ajax({
+		type:"POST",
+		url:"{:url('rule/add')}",
+		dataType:"json",
+		data:{
+			title:title,
+			name:name,
+			condition:condition,
+			status:status,
+			said:said,
+			sort:_sort,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

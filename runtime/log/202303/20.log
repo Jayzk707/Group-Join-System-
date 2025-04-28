@@ -1,0 +1,472 @@
+---------------------------------------------------------------
+[ 2023-03-20T15:29:19+08:00 ] 147.78.47.249 GET xiezhen2.720vrcloud.net/_ignition/health-check/
+[运行时间：0.011470s] [吞吐率：87.19req/s] [内存消耗：234.18kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_ignition',
+    1 => 'health-check',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen2.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T15:29:20+08:00 ] 147.78.47.249 GET xiezhen1.720vrcloud.net/_ignition/health-check/
+[运行时间：0.009970s] [吞吐率：100.30req/s] [内存消耗：234.19kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_ignition',
+    1 => 'health-check',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T15:29:21+08:00 ] 147.78.47.249 GET xiezhen2.720vrcloud.net/public/_ignition/health-check/
+[运行时间：0.009854s] [吞吐率：101.48req/s] [内存消耗：234.25kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => '_ignition',
+    2 => 'health-check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen2.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T15:29:22+08:00 ] 147.78.47.249 GET xiezhen1.720vrcloud.net/public/_ignition/health-check/
+[运行时间：0.010874s] [吞吐率：91.96req/s] [内存消耗：234.25kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => '_ignition',
+    2 => 'health-check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T15:29:24+08:00 ] 147.78.47.249 GET xiezhen2.720vrcloud.net/wp-includes/wlwmanifest.xml
+[运行时间：0.011612s] [吞吐率：86.12req/s] [内存消耗：234.23kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-includes',
+    1 => 'wlwmanifest.xml',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen2.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T15:29:25+08:00 ] 147.78.47.249 GET xiezhen1.720vrcloud.net/wp-includes/wlwmanifest.xml
+[运行时间：0.009972s] [吞吐率：100.28req/s] [内存消耗：234.23kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-includes',
+    1 => 'wlwmanifest.xml',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-user' => '?1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua' => '"Google Chrome";v="109", "Not)A;Brand";v="8", "Chromium";v="109"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T17:41:51+08:00 ] 49.88.109.134 GET xiezhen1.720vrcloud.net/
+[运行时间：0.015041s] [吞吐率：66.48req/s] [内存消耗：363.09kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xiezhen1.720vrcloud.net',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:33+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/wordpress
+[运行时间：0.012667s] [吞吐率：78.94req/s] [内存消耗：229.77kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wordpress',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:33+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/
+[运行时间：0.014320s] [吞吐率：69.83req/s] [内存消耗：361.16kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/xiezhen1.720vrcloud.net/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:34+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/wp
+[运行时间：0.011034s] [吞吐率：90.63req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:34+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/bc
+[运行时间：0.010746s] [吞吐率：93.06req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:35+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/bk
+[运行时间：0.010321s] [吞吐率：96.89req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bk',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:35+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/backup
+[运行时间：0.010430s] [吞吐率：95.88req/s] [内存消耗：229.74kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'backup',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:35+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/old
+[运行时间：0.018065s] [吞吐率：55.36req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'old',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:36+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/new
+[运行时间：0.009998s] [吞吐率：100.02req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'new',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:36+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/main
+[运行时间：0.010447s] [吞吐率：95.72req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'main',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-03-20T23:04:36+08:00 ] 69.167.12.18 HEAD xiezhen1.720vrcloud.net/home
+[运行时间：0.010217s] [吞吐率：97.88req/s] [内存消耗：229.73kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/xiezhen1.720vrcloud.net/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => '*/*',
+  'host' => 'xiezhen1.720vrcloud.net',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        
+
+    <div class="layui-form-item">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-block">
+              <input name="name" type="text" disabled class="layui-input" id="name" value="{$info.su_title}({$info.su_fz_money})" readonly="readonly"   placeholder="用户名">
+            </div>
+          </div>  
+
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">提现金额</label>
+            <div class="layui-input-block">
+              <input name="wx" type="text" disabled class="layui-input" id="wx"  value="{$info.su_money}" readonly="readonly"   placeholder="微信号">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">二维码</label>
+            <div class="layui-input-block">
+              <img src="{$info.su_img}" width="300" height="450">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">审核备注</label>
+            <div class="layui-input-block">
+              <input name="content" type="text" class="layui-input" id="content"  value="{$info.su_content}"   placeholder="审核备注">
+            </div>
+          </div>
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+              <input type="radio" name="status" value="1" title="审核中" {if $info.st_status==1}checked=""{/if}>
+              <input type="radio" name="status" value="3" title="拒绝" {if $info.st_status==3}checked=""{/if}>
+              <input type="radio" name="status" value="4" title="已支付" {if $info.st_status==4}checked=""{/if}>
+            </div>
+          </div>
+	  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	
+	var content   = $("#content").val();
+	var status  = $("input[name='status']:checked").val();
+ 
+	$.ajax({
+		type:"POST",
+		url:"{:url('tixian/edit')}",
+		dataType:"json",
+		data:{
+			id:{$info.st_id},
+			suid:{$info.su_id},
+			money:{$info.su_money},
+			content:content,
+			status:status,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1430 @@
+---------------------------------------------------------------
+[ 2023-05-15T21:36:45+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.048448s] [吞吐率：20.64req/s] [内存消耗：2,962.45kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; MI 8 UD Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5049 MMWEBSDK/20230405 MMWEBID/8157 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => '*/*',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=gsuu33smmj076i53vse3nselt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001942s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2023-05-15T21:36:45+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/favicon.ico
+[运行时间：0.022729s] [吞吐率：44.00req/s] [内存消耗：1,432.80kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; MI 8 UD Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5049 MMWEBSDK/20230405 MMWEBID/8157 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=gsuu33smmj076i53vse3nselt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-15T21:36:46+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/7cce7f0f15eabd76ee70a6d6fca4cc2d/time/1684157805.html
+[运行时间：0.054273s] [吞吐率：18.43req/s] [内存消耗：3,244.98kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; MI 8 UD Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5049 MMWEBSDK/20230405 MMWEBID/8157 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=gsuu33smmj076i53vse3nselt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '7cce7f0f15eabd76ee70a6d6fca4cc2d',
+  'time' => '1684157805',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002093s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 75 and bl_sncode = '18_75_1684153602' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=17  WHERE  (  wxg_id = 75 ) [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2023-05-15T21:53:26+08:00 ] 175.24.212.154 GET z8zz.8x89.cn/group.php/index/share/id/72/t/eb12f3296be4c5dff16af0eba37b4716/time/1684149080.html
+[运行时间：0.077437s] [吞吐率：12.91req/s] [内存消耗：3,301.25kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'user-agent' => 'python-httpx/0.23.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '72',
+  't' => 'eb12f3296be4c5dff16af0eba37b4716',
+  'time' => '1684149080',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002909s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 72 ) LIMIT 1 [ RunTime:0.001165s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=5  WHERE  (  wxg_id = 72 ) [ RunTime:0.001257s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:03+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.046650s] [吞吐率：21.44req/s] [内存消耗：2,997.48kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002725s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.002079s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:04+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.064062s] [吞吐率：15.61req/s] [内存消耗：2,961.63kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002262s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.002526s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:04+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.041012s] [吞吐率：24.38req/s] [内存消耗：2,997.48kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000866s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:05+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/a3622978aa3d8c5447c4b1ece9d210e6/time/1684159204.html
+[运行时间：0.044807s] [吞吐率：22.32req/s] [内存消耗：3,232.78kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => 'a3622978aa3d8c5447c4b1ece9d210e6',
+  'time' => '1684159204',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000970s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002377s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=18  WHERE  (  wxg_id = 75 ) [ RunTime:0.001005s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:06+08:00 ] 116.252.237.108 POST z8zz.8x89.cn/group.php/index/paylist.html
+[运行时间：0.064555s] [吞吐率：15.49req/s] [内存消耗：3,019.80kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://z8zz.8x89.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/share/id/75/t/a3622978aa3d8c5447c4b1ece9d210e6/time/1684159204.html',
+  'content-length' => '5',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001129s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002198s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001969s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001952s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001900s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_75_1684159206' and su_id = 18 and wxg_id = 75 ) LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 75 , 13 , '18_75_1684159206' , 59.9 , '2023-05-15 22:00:06' , 1 , 70 , 41.93 , 17.97) [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:16+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.045870s] [吞吐率：21.80req/s] [内存消耗：2,997.32kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002584s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:16+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.047334s] [吞吐率：21.13req/s] [内存消耗：2,962.10kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001079s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002570s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001834s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:17+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/76f2c798bb8693e5178285d73c05e2f8/time/1684159216.html
+[运行时间：0.055671s] [吞吐率：17.96req/s] [内存消耗：3,244.54kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '76f2c798bb8693e5178285d73c05e2f8',
+  'time' => '1684159216',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002261s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.003507s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 75 and bl_sncode = '18_75_1684159206' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=19  WHERE  (  wxg_id = 75 ) [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:31+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.038484s] [吞吐率：25.98req/s] [内存消耗：2,997.32kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000925s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:32+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.043893s] [吞吐率：22.78req/s] [内存消耗：2,962.10kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002087s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000692s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:33+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/1606d81760f9639ad3eafd218ea7a1cb/time/1684159232.html
+[运行时间：0.056710s] [吞吐率：17.63req/s] [内存消耗：3,244.46kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '1606d81760f9639ad3eafd218ea7a1cb',
+  'time' => '1684159232',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002111s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 75 and bl_sncode = '18_75_1684159206' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=20  WHERE  (  wxg_id = 75 ) [ RunTime:0.000737s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:00:37+08:00 ] 116.252.237.108 POST z8zz.8x89.cn/group.php/index/paylist.html
+[运行时间：0.055277s] [吞吐率：18.09req/s] [内存消耗：3,019.83kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://z8zz.8x89.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/share/id/75/t/1606d81760f9639ad3eafd218ea7a1cb/time/1684159232.html',
+  'content-length' => '5',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001139s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002067s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_75_1684159237' and su_id = 18 and wxg_id = 75 ) LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 75 , 13 , '18_75_1684159237' , 59.9 , '2023-05-15 22:00:37' , 1 , 70 , 41.93 , 17.97) [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001800s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:01:06+08:00 ] 180.163.29.79 GET z8zz.8x89.cn/group.php/index/share/id/75/t/a3622978aa3d8c5447c4b1ece9d210e6/time/1684159204.html
+[运行时间：0.053118s] [吞吐率：18.83req/s] [内存消耗：3,232.00kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => 'a3622978aa3d8c5447c4b1ece9d210e6',
+  'time' => '1684159204',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001423s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002693s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=21  WHERE  (  wxg_id = 75 ) [ RunTime:0.001017s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:01:18+08:00 ] 180.163.28.114 GET z8zz.8x89.cn/group.php/index/share/id/75/t/76f2c798bb8693e5178285d73c05e2f8/time/1684159216.html
+[运行时间：0.050733s] [吞吐率：19.71req/s] [内存消耗：3,232.19kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '76f2c798bb8693e5178285d73c05e2f8',
+  'time' => '1684159216',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001828s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000859s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=22  WHERE  (  wxg_id = 75 ) [ RunTime:0.000890s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:01:34+08:00 ] 180.163.30.27 GET z8zz.8x89.cn/group.php/index/share/id/75/t/1606d81760f9639ad3eafd218ea7a1cb/time/1684159232.html
+[运行时间：0.048897s] [吞吐率：20.45req/s] [内存消耗：3,231.91kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '1606d81760f9639ad3eafd218ea7a1cb',
+  'time' => '1684159232',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=23  WHERE  (  wxg_id = 75 ) [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:02:32+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.047382s] [吞吐率：21.11req/s] [内存消耗：2,997.32kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002348s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001923s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001004s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:02:32+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.051126s] [吞吐率：19.56req/s] [内存消耗：2,962.10kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001117s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001977s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001659s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:02:33+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/b82dcc18a60ebc66b47573a3674b536f/time/1684159352.html
+[运行时间：0.060287s] [吞吐率：16.59req/s] [内存消耗：3,244.64kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => 'b82dcc18a60ebc66b47573a3674b536f',
+  'time' => '1684159352',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001944s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 75 and bl_sncode = '18_75_1684159237' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=24  WHERE  (  wxg_id = 75 ) [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:05:25+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.068526s] [吞吐率：14.59req/s] [内存消耗：2,997.32kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003486s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001698s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:05:26+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.052611s] [吞吐率：19.01req/s] [内存消耗：2,962.10kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002065s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001583s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001978s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:05:27+08:00 ] 116.252.237.108 GET z8zz.8x89.cn/group.php/index/share/id/75/t/46b338fa6a9ac8c43c0ab9803bf86858/time/1684159526.html
+[运行时间：0.049012s] [吞吐率：20.40req/s] [内存消耗：3,244.72kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '46b338fa6a9ac8c43c0ab9803bf86858',
+  'time' => '1684159526',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 75 and bl_sncode = '18_75_1684159237' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=25  WHERE  (  wxg_id = 75 ) [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:05:29+08:00 ] 116.252.237.108 POST z8zz.8x89.cn/group.php/index/paylist.html
+[运行时间：0.064685s] [吞吐率：15.46req/s] [内存消耗：3,019.83kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://z8zz.8x89.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.37(0x18002528) NetType/WIFI Language/zh_CN',
+  'connection' => 'keep-alive',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/share/id/75/t/46b338fa6a9ac8c43c0ab9803bf86858/time/1684159526.html',
+  'content-length' => '5',
+  'cookie' => 'PHPSESSID=dei1ettcucho3acbl9n1gjfn82',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001065s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_75_1684159529' and su_id = 18 and wxg_id = 75 ) LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 75 , 13 , '18_75_1684159529' , 59.9 , '2023-05-15 22:05:29' , 1 , 70 , 41.93 , 17.97) [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:06:27+08:00 ] 180.163.29.206 GET z8zz.8x89.cn/group.php/index/share/id/75/t/46b338fa6a9ac8c43c0ab9803bf86858/time/1684159526.html
+[运行时间：0.059939s] [吞吐率：16.68req/s] [内存消耗：3,232.05kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '46b338fa6a9ac8c43c0ab9803bf86858',
+  'time' => '1684159526',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002285s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001150s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=26  WHERE  (  wxg_id = 75 ) [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:22:08+08:00 ] 14.150.65.104 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.047991s] [吞吐率：20.84req/s] [内存消耗：2,997.98kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PFGM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5061 MMWEBSDK/20230405 MMWEBID/7855 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.003863s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001516s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:22:09+08:00 ] 14.150.65.104 GET z8zz.8x89.cn/group.php/index/turl/id/75.html
+[运行时间：0.049323s] [吞吐率：20.27req/s] [内存消耗：2,962.48kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'turl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PFGM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5061 MMWEBSDK/20230405 MMWEBID/7855 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => '*/*',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->turl[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001178s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002045s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` WHERE  (  du_id = 31 ) LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` WHERE  (  su_id = 18 and su_pl_status = 1 ) LIMIT 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:22:09+08:00 ] 14.150.65.104 GET z8zz.8x89.cn/favicon.ico
+[运行时间：0.023636s] [吞吐率：42.31req/s] [内存消耗：1,432.16kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PFGM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5061 MMWEBSDK/20230405 MMWEBID/7855 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-15T22:22:09+08:00 ] 14.150.65.104 GET z8zz.8x89.cn/group.php/index/share/id/75/t/63eb5878285d35a59dfdd6e5d4c3ca61/time/1684160529.html
+[运行时间：0.046718s] [吞吐率：21.40req/s] [内存消耗：3,233.87kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; PFGM00 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 XWEB/5061 MMWEBSDK/20230405 MMWEBID/7855 MicroMessenger/8.0.35.2360(0x28002353) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://z8zz.8x89.cn/group.php/index/index/id/75.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+  't' => '63eb5878285d35a59dfdd6e5d4c3ca61',
+  'time' => '1684160529',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002687s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.000988s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=27  WHERE  (  wxg_id = 75 ) [ RunTime:0.001123s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:24:40+08:00 ] 180.163.30.85 GET z8zz.8x89.cn/group.php/index/index/id/75.html
+[运行时间：0.040506s] [吞吐率：24.69req/s] [内存消耗：2,996.65kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'z8zz.8x89.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '75',
+)
+[ info ] [ RUN ] app\group\controller\Index->index[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001091s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002175s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 75 ) LIMIT 1 [ RunTime:0.001109s ]
+---------------------------------------------------------------
+[ 2023-05-15T22:26:33+08:00 ] 42.187.206.2 GET z8zz.8x89.cn/group.php/index/share/id/72/t/02f892d0bfd86900e9c8cb2c416f2afe/time/1684149009.html
+[运行时间：0.049809s] [吞吐率：20.08req/s] [内存消耗：3,301.05kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/z8z.8x89.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z8zz.8x89.cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'user-agent' => 'python-httpx/0.23.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '72',
+  't' => '02f892d0bfd86900e9c8cb2c416f2afe',
+  'time' => '1684149009',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:host=127.0.0.1;port=3306;dbname=z8z;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002350s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 72 ) LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=6  WHERE  (  wxg_id = 72 ) [ RunTime:0.001069s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/z8z.8x89.cn/application/group/controller/Index.php:397]

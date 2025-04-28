@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        <div class="layui-form-item">
+            <label class="layui-form-label">群组名称</label>
+            <div class="layui-input-block">
+              <input name="title" type="text" disabled class="layui-input" id="title" value="{$info.title}" readonly="readonly"   placeholder="群组名称">
+            </div>
+          </div>    
+
+		  <div class="layui-form-item">
+            <label class="layui-form-label">导航名称</label>
+            <div class="layui-input-block">
+			
+			
+			<table class="layui-table" lay-even="" lay-skin="nob">
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.ns_id}">
+					<td><input type="checkbox" name="model" value="{$vo.ns_id}" title="{$vo.ns_title}" {range name="$vo.ns_id" value="$nav_ids" type="in"}checked{/range}></td>
+					
+				</tr>
+				{volist name="vo.data" id="vo1"}
+				<tr id="tr_{$vo1.ns_id}">
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_&nbsp;<input type="checkbox" name="model" value="{$vo1.ns_id}" title="{$vo1.ns_title}" {range name="$vo1.ns_id" value="$nav_ids" type="in"}checked{/range}></td>
+					
+				</tr>
+				{/volist}
+			{/volist}
+            </tbody>
+          </table>
+			
+			
+			
+            </div>
+          </div> 
+		  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+
+	var navs  = "";
+	$.each($('input:checkbox'),function(){
+		if(this.checked){
+			navs += $(this).val()+",";
+		}
+	});
+	
+	
+	$.ajax({
+		type:"POST",
+		url:"{:url('group/addnavigat')}",
+		dataType:"json",
+		data:{
+			id:"{$info.id}",
+			navs:navs,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

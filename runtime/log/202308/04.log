@@ -1,0 +1,555 @@
+---------------------------------------------------------------
+[ 2023-08-04T10:09:42+08:00 ] 106.74.26.245 GET jiandan.seecss.cn/favicon.ico
+[运行时间：0.014786s] [吞吐率：67.63req/s] [内存消耗：1,430.90kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T10:09:42+08:00 ] 106.74.26.245 GET jiandan.seecss.cn/
+[运行时间：0.017865s] [吞吐率：55.97req/s] [内存消耗：2,071.31kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/jiandan.seecss.cn/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T10:09:46+08:00 ] 106.74.26.245 GET jiandan.seecss.cn//website/center/index.html
+[运行时间：0.016515s] [吞吐率：60.55req/s] [内存消耗：1,789.06kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T11:17:48+08:00 ] 39.128.105.175 GET jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html
+[运行时间：0.033249s] [吞吐率：30.08req/s] [内存消耗：3,308.03kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://jdmhcs.seecss.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '71',
+  't' => 'f3cca927f31c7600259296cd41178cee',
+  'time' => '1690826287',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=jiandancs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001853s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 71 ) LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=339  WHERE  (  wxg_id = 71 ) [ RunTime:0.000493s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-08-04T11:17:51+08:00 ] 39.128.105.175 GET jiandan.yuerce.cloud/favicon.ico
+[运行时间：0.013323s] [吞吐率：75.06req/s] [内存消耗：1,433.48kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'image/wxpic,image/tpg,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T11:18:02+08:00 ] 39.128.105.175 POST jiandan.yuerce.cloud/group.php/index/paylist.html
+[运行时间：0.040491s] [吞吐率：24.70req/s] [内存消耗：3,020.79kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://jiandan.yuerce.cloud',
+  'referer' => 'http://jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '71',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;port=3306;dbname=jiandancs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001863s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 71 ) LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.001855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_71_1691119082' and su_id = 18 and wxg_id = 71 ) LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 71 , 13 , '18_71_1691119082' , 9.9 , '2023-08-04 11:18:02' , 1 , 70 , 6.93 , 2.97) [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2023-08-04T11:18:08+08:00 ] 39.128.105.175 GET jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html
+[运行时间：0.034252s] [吞吐率：29.20req/s] [内存消耗：3,318.89kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://jdmhcs.seecss.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '71',
+  't' => 'f3cca927f31c7600259296cd41178cee',
+  'time' => '1690826287',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;port=3306;dbname=jiandancs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 71 ) LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 71 and bl_sncode = '18_71_1691119082' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=340  WHERE  (  wxg_id = 71 ) [ RunTime:0.000462s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-08-04T11:18:09+08:00 ] 39.128.105.175 POST jiandan.yuerce.cloud/group.php/index/paylist.html
+[运行时间：0.036788s] [吞吐率：27.18req/s] [内存消耗：3,020.81kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'paylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://jiandan.yuerce.cloud',
+  'referer' => 'http://jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '71',
+)
+[ info ] [ RUN ] app\group\controller\Index->paylist[ /www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;port=3306;dbname=jiandancs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 71 ) LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation_paylist` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation_paylist` `spl` INNER JOIN `web_paylist` `pl` ON `pl`.`pl_id`=`spl`.`pl_id` WHERE  (  spl.su_id = 18 and spl.su_pl_status = 1 and pl.pl_status = 1 and spl.su_pl_id in (13) ) [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT * FROM `web_distribution` `d` INNER JOIN `web_distribution_group` `dg` ON `d`.`dg_id`=`dg`.`dg_id` WHERE  (  d.du_id = 31 ) LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  bl_sncode = '18_71_1691119089' and su_id = 18 and wxg_id = 71 ) LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] INSERT INTO `web_bill` (`du_id` , `su_id` , `wxg_id` , `su_pl_id` , `bl_sncode` , `bl_money` , `bl_addtime` , `bl_status` , `bl_scale` , `bl_scalemoney` , `bl_substationmoney`) VALUES (31 , 18 , 71 , 13 , '18_71_1691119089' , 9.9 , '2023-08-04 11:18:09' , 1 , 70 , 6.93 , 2.97) [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 18 ) LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2023-08-04T11:18:11+08:00 ] 39.128.105.175 GET jiandan.yuerce.cloud/group.php/index/share/id/71/t/f3cca927f31c7600259296cd41178cee/time/1690826287.html
+[运行时间：0.034260s] [吞吐率：29.19req/s] [内存消耗：3,319.33kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'group',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.yuerce.cloud',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1938CT Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5197 MMWEBSDK/20230701 MMWEBID/3666 MicroMessenger/8.0.40.2420(0x2800287D) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wxpic,image/tpg,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'x-requested-with' => 'com.tencent.mm',
+  'referer' => 'http://jdmhcs.seecss.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=p3rulbiesmt17spg97bj3bnan7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '71',
+  't' => 'f3cca927f31c7600259296cd41178cee',
+  'time' => '1690826287',
+)
+[ info ] [ RUN ] app\group\controller\Index->share[ /www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] template/group/index/share.html [ array (
+  0 => 'qccontent',
+  1 => 'qcontent',
+  2 => 'content',
+  3 => 'info',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;port=3306;dbname=jiandancs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT * FROM `web_wxgroup` WHERE  (  wxg_id = 71 ) LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `web_bill` WHERE  (  wxg_id = 71 and bl_sncode = '18_71_1691119089' and bl_status = 2 ) LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] UPDATE `web_wxgroup`  SET `wxg_readcount`=341  WHERE  (  wxg_id = 71 ) [ RunTime:0.000447s ]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/jiandan.seecss.cn/application/group/controller/Index.php:397]
+---------------------------------------------------------------
+[ 2023-08-04T15:41:42+08:00 ] 36.99.136.131 GET jiandan.seecss.cn/
+[运行时间：0.019476s] [吞吐率：51.35req/s] [内存消耗：2,071.12kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/jiandan.seecss.cn/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T15:41:54+08:00 ] 36.99.136.131 GET jiandan.seecss.cn/
+[运行时间：0.017602s] [吞吐率：56.81req/s] [内存消耗：2,072.20kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/jiandan.seecss.cn/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T15:42:06+08:00 ] 36.99.136.132 GET jiandan.seecss.cn/
+[运行时间：0.019447s] [吞吐率：51.42req/s] [内存消耗：2,072.43kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jiandan.seecss.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/jiandan.seecss.cn/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T18:37:23+08:00 ] 8.217.103.144 GET jiandan.yuerce.cloud/
+[运行时间：0.020070s] [吞吐率：49.83req/s] [内存消耗：1,701.16kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'host' => 'jiandan.yuerce.cloud',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T18:37:26+08:00 ] 8.217.103.144 GET jiandan.yuerce.cloud/sitemap.xml
+[运行时间：0.013510s] [吞吐率：74.02req/s] [内存消耗：1,429.61kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sitemap.xml',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'fasthttp',
+  'host' => 'jiandan.yuerce.cloud',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-08-04T18:37:27+08:00 ] 8.217.103.144 GET jiandan.yuerce.cloud/robots.txt
+[运行时间：0.013412s] [吞吐率：74.56req/s] [内存消耗：1,429.61kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/jiandan.seecss.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'robots.txt',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'fasthttp',
+  'host' => 'jiandan.yuerce.cloud',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

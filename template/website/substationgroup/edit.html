@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        
+        
+        <div class="layui-form-item">
+            <label class="layui-form-label">群组名称</label>
+            <div class="layui-input-block">
+              <input name="title" type="text" class="layui-input" id="title"   placeholder="分站群组名称" value="{$info.su_g_title}">
+            </div>
+          </div>   
+  
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">分站时长</label>
+            <div class="layui-input-block">
+              <input name="daycount" type="number" class="layui-input" id="daycount"   placeholder="分站时长（0为99年，按月计算）" value="{$info.su_g_day}">
+            </div>
+          </div> 
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">备注</label>
+            <div class="layui-input-block">
+              <input name="content" type="text" class="layui-input" id="content"   placeholder="备注" value="{$info.su_g_content}">
+            </div>
+          </div> 
+           
+           <div class="layui-form-item">
+            <label class="layui-form-label">支付方式</label>
+            <div class="layui-input-block">
+				{volist name="Paylist" id="vo"}
+				<input type="checkbox" name="paylist" value="{$vo.pl_id}" title="{$vo.pl_title}" {range name="$vo.pl_id" value="$info['su_g_paylist']" type="in"}checked{/range}>
+                {/volist}
+            </div>
+          </div>
+		  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+<script>
+layui.use(['upload', 'element', 'layer'], function(){
+  var $ = layui.jquery
+  ,upload = layui.upload
+  ,element = layui.element
+  ,layer = layui.layer;
+  
+  //常规使用 - 普通图片上传
+  var uploadInst = upload.render({
+    elem: '#test1'
+    ,url: '{:url('upload/uploadpayico')}' //改成您自己的上传接口
+    ,before: function(obj){
+      //预读本地文件示例，不支持ie8
+      //obj.preview(function(index, file, result){
+      //  $('#demo1').attr('src', result); //图片链接（base64）
+      //});
+    }
+    ,done: function(res){
+      //如果上传失败
+      if(res.success == "error"){
+        return layer.msg('上传失败');
+      }else{
+		$("#ico").val(res.fileurl);
+		$("#demo1").attr("src",res.fileurl);
+		return layer.msg('上传完毕', {icon: 1});
+	  }
+	  
+      //上传成功的一些操作
+      //……
+      $('#demoText').html(''); //置空上传失败的状态
+    }
+    ,error: function(){
+      //演示失败状态，并实现重传
+      var demoText = $('#demoText');
+      demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+      demoText.find('.demo-reload').on('click', function(){
+        uploadInst.upload();
+      });
+    }
+  });
+  
+
+});
+</script>
+<script>
+$(".sub").click(function(){
+	//if(!$(".btn").hasClass("sub")){return false;}
+	var title    = $("#title").val();
+	var daycount = $("#daycount").val();
+	var content  = $("#content").val();
+	var paylist  = document.getElementsByName('paylist');
+	var paylist_list='';
+	for(i=0;i<paylist.length;i++){
+		if(paylist[i].checked) paylist_list+=paylist[i].value+',';//如果选中，将value添加到变量s中
+	}
+
+	if(title==""){
+		show_error("群组名称不能为空!");
+		return false;
+	}
+	
+	if(daycount==""){
+		show_error("分站时长不能为空!");
+		return false;
+	}
+	
+	if(paylist_list == ""){
+		show_error("请选择支付方式!");
+		return false;
+	}
+	$.ajax({
+		type:"POST",
+		url:"{:url('substationgroup/edit')}",
+		dataType:"json",
+		data:{
+			id:"{$info.su_g_id}",
+			title:title,
+			daycount:daycount,
+			content:content,
+			paylist_list:paylist_list,
+		},
+		success:function(res){
+			if(res.status == 1){
+				window.parent.layer.closeAll();//关闭弹窗
+				window.parent.location.reload();
+				//show_toast_callurl(res.data,"{:url('device/index')}","success");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>

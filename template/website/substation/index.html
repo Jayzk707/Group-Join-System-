@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-body">
+          	<div class="layui-box">
+          	    
+          	<div class="layui-box">
+          		<div class="layui-inline"><input type="text" name="scontent" id="scontent" placeholder="请输入分站名称或域名" value="{$s}"  class="layui-input"></div>
+          		<div class="layui-inline">
+            		<button class="layui-btn layuiadmin-btn-admin" lay-submit lay-filter="LAY-user-back-search" data-type="indexsearch"><i class="layui-icon layui-icon-search layuiadmin-button-btn"></i></button>
+          		</div>
+          		<div class="layui-inline">
+                	{if($__APS__.add)}<button class="layui-btn layuiadmin-btn-tags" data-type="add">添加</button>{/if}
+				</div>
+         	</div>
+         	
+			
+			 </div>
+			<div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+			<div class="layui-form" lay-filter="component-form-element">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+            <thead>
+              <tr>
+                <th width="35" rowspan="2">序号</th>
+                <th rowspan="2">状态</th>
+                <th rowspan="2">所属群组</th>
+				<th rowspan="2">分站名称</th>
+				<th rowspan="2">分站域名</th>
+				<th rowspan="2">余点</th>
+				<th rowspan="2">抽拥比</th>
+                <th rowspan="2">到期时间</th>
+                <th rowspan="2">分站帐号</th>
+                <th height="20" colspan="5" style="text-align:center">数据统计</th>
+                <th rowspan="2">备注</th>
+                
+				{if($__APS__.del or $__APS__.edit)}<th width="115" rowspan="2">管理</th>{/if}
+              </tr>
+              <tr >
+                <th style="text-align:center">分销数</th>
+                <th style="text-align:center">{if($__APS__.show)}月抽佣{/if}</th>
+                <th style="text-align:center">{if($__APS__.show)}总抽佣{/if}</th>
+                <th style="text-align:center">今日收款</th>
+                <th style="text-align:center">总收款</th>
+                
+              </tr> 
+            </thead>
+            <tbody>
+             {volist name="list" id="vo"}
+				<tr id="tr_{$vo.su_id}">
+					<td class="text-center">{$vo.su_id}</td>
+                     <td class="text-center">{if $vo.su_status==1}<span class="layui-badge-dot layui-bg-green"></span>{else}<span class="layui-badge-dot"></span>{/if}</td>
+                    <td><span class="layui-badge-rim">{$vo.su_g_title}</span></td>
+                    <td>{if $vo.su_s_id!=0}<span class="layui-badge">分：{$vo.su_s_id}</span>{/if} {$vo.su_title}</td>
+                    <td><span class="layui-badge layui-bg-gray">{$vo.su_domain}</span></td>
+                    <td>{$vo.su_dk}</td>
+                    <td>{$vo.su_dk_cd} %</td>
+                    <td>{$vo.su_endtime}</td>
+                    <td>{$vo.su_name}</td>
+                    <td style="text-align:center"><span class="layui-badge layui-bg-cyan">{$vo.count_fx} 位</span></td>
+                    <td style="text-align:center">{if($__APS__.show)}<span class="layui-badge">{$vo.count_cs|round=###,2} 元</span>{/if}</td>
+                    <td style="text-align:center">{if($__APS__.show)}<span class="layui-badge">{$vo.count_zcs|round=###,2} 元</span>{/if}</td>
+                    <td style="text-align:center"><span class="layui-badge">{$vo.count_daymoney|round=###,2} 元</span></td>
+                    <td style="text-align:center"><span class="layui-badge">{$vo.count_zmoney|round=###,2} 元</span></td>
+                    <td class="text-center">{$vo.su_content}</td>
+					{if($__APS__.del or $__APS__.edit)}
+					<td>
+							<div class="layui-btn-group">
+								{if($__APS__.del)}<button class="layui-btn layui-btn-sm" onClick="calldel('{:url('substation/del',array('id'=>$vo.su_id))}','tr_{$vo.su_id}')"><i class="layui-icon">&#xe640;</i></button>{/if}
+								{if($__APS__.edit)}<button class="layui-btn layui-btn-sm" data-type="edit" data-id="{$vo.su_id}"><i class="layui-icon">&#xe642;</i></button>{/if}
+                                <button class="layui-btn layui-btn-sm" data-type="login" data-user="{$vo.su_name}" data-pass="{$vo.su_pass}">登</button>
+							</div>
+					</td>
+					{/if}
+				</tr>
+			{/volist}
+            </tbody>
+          </table> 
+		  </div>
+		  <div class="layui-box layui-laypage layui-laypage-molv">{$page}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {include file="common_footer" /} 
+   <script>
+	layui.use(['index','form'], function(){
+		
+		var form = layui.form;
+		
+
+
+    var $ = layui.$, active = {
+        
+        
+        
+        
+	  indexsearch: function(){
+		var scontent = $("#scontent").val();
+		if(scontent==""){
+		    var url = "{:url('substation/index')}";
+		}else{
+		    var url = "{:url('substation/index',array('s'=>'AAAAA'))}";
+		    url = url.replace("AAAAA", scontent);
+		}
+		window.location = url;
+	  },
+        
+        
+		
+	  login: function(){
+		  var user = $(this).data('user');
+		  var pass = $(this).data('pass');
+		  var url = '{:url('substation.php/index/login_admin',array('username'=>'AAAAAA','password'=>'BBBBBB'))}';
+		  url = url.replace("AAAAAA",user);
+		  url = url.replace("BBBBBB",pass)
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  url = url.replace("#","[AAA]")
+		  window.open(url,'_blank');
+      },	
+		
+		
+      {if($__APS__.add)}
+	  add: function(){
+        layer.open({
+          type: 2
+          ,title: '添加分站'
+          ,content: '{:url('substation/add')}'
+          ,area: ['660px', '660px']
+        }); 
+      },
+	  {/if}
+	  
+	  {if($__APS__.edit)}
+	  edit: function(){
+		var id = $(this).data('id');
+		var url = '{:url('substation/edit',array('id'=>'AAAAAA'))}';
+		url = url.replace("AAAAAA",id)
+        layer.open({
+          type: 2
+          ,title: '修改分站'
+          ,content: url
+          ,area: ['660px', '660px']
+        }); 
+      },
+	  {/if}
+	  
+
+    } 
+	
+	 
+    $('.layui-btn').on('click', function(){
+      var type = $(this).data('type');
+      active[type] ? active[type].call(this) : '';
+    });
+
+	
+  });
+  </script>
+</body>
+</html>

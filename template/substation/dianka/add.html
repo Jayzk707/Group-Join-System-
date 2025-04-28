@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{include file="common_header" /}
+	{include file="common_top" /}
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+        {if !empty($info.dkgg_content)}
+        <blockquote class="layui-elem-quote">{$info.dkgg_content}</blockquote>
+        {/if}
+        <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+                {if $info.wxopen==1}
+              <input type="radio" name="types" value="1" title="微信支付" checked="">
+              {/if}
+              {if $info.zfbopen==1}
+              <input type="radio" name="types" value="2" title="支付宝支付" {if $info.wxopen==2}checked=""{/if}>
+              {/if}
+            </div>
+          </div>
+          
+          
+        <div class="layui-form-item">
+            <label class="layui-form-label">充值金额</label>
+            <div class="layui-input-block">
+              <input name="money" type="number" class="layui-input" id="money" placeholder="充值金额">
+            </div>
+          </div>   
+ 
+
+        <div class="layui-form-item" style="display:none" id="kkk">
+            <div class="layui-input-block">
+              <img id="img">
+              <div style="height:30px; margin-top:20px;" id="orderid"></div>
+            </div>
+          </div>
+		  
+         <div class="layui-form-item layui-layout-admin">
+              <div class="layui-footer" style="left: 0;">
+                  <div class="layui-btn sub">立即提交</div>
+                <button type="reset" class="layui-btn layui-btn-primary ">重置</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{include file="common_footer" /} 
+
+<script>
+$(".sub").click(function(){
+    var money = $("#money").val();
+	var types  = $("input[name='types']:checked").val();
+	if(money<=0){
+	    show_error("充值金额不能为空!");
+		return false;
+	}
+	
+	$.ajax({
+		type:"POST",
+		url:"{:url('dianka/pay')}",
+		dataType:"json",
+		data:{
+			money:money,
+			types:types,
+		},
+		success:function(res){
+			if(res.status == 1){
+			    //dataURL = "https://api.qrserver.com/v1/create-qr-code/?size=290x290&data=" + res.msg;
+			    $('#kkk').css("display",'block');
+				$("#img").attr('src',res.msg);
+				$("#orderid").html("订单号："+res.id+"<br>支付完成后，请刷新页面！");
+			}else{
+				show_error(res.msg);
+			}
+		},
+		error:function(jqXHR){
+			console.log("Error: "+jqXHR.status);
+		},
+	});
+	
+});
+</script>
+</body>
+</html>
