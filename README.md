@@ -1,15 +1,89 @@
-了解了！你的需求是：
+当然可以！  
+下面是你的项目的**英文版 `README.md`**，我也帮你调整了一下顺序，让它更正式且专业，符合开源项目的标准：
 
-- 你已经用 **PHP** 写了一个 **进群系统**；
-- 你需要我帮你写一个完整、规范的 **`README.md`**；
-- 内容要包括：
-  - 项目介绍
-  - 安装部署说明
-  - 使用方法
-  - 赞助致谢声明（中英文都有，按你给的格式✨✨✨）
-- 格式要正式，适合放到 GitHub 上。
+---
 
-✅ 好的，下面是给你专门写好的 `README.md` 内容，直接可以用了！
+# PHP Group Joining System
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+A lightweight and easy-to-use PHP-based system that allows users to join groups through a streamlined invitation process.  
+This project aims to simplify group management and improve user experience.
+
+---
+
+## ✨ Features
+
+- Simple PHP-based setup
+- Optional database support
+- Captcha protection to prevent spam
+- Admin email notifications
+- Easy customization for different group platforms
+
+---
+
+## 📦 Project Structure
+
+```
+/config.php         # System configuration file
+/index.php          # Main entry page
+/join.php           # Submission and validation logic
+/assets/            # Front-end resources (CSS/JS/images)
+/logs/              # Log files (if enabled)
+```
+
+---
+
+## ⚙️ Configuration
+
+Edit the `config.php` file to set your own parameters:
+
+```php
+// Example settings
+define('GROUP_INVITE_LINK', 'https://example.com/invite');
+define('ADMIN_EMAIL', 'admin@example.com');
+define('ENABLE_CAPTCHA', true);
+```
+
+You can also configure database connection settings if you wish to store user data.
+
+---
+
+## 🚀 Deployment
+
+1. Upload all files to your server environment.
+2. Modify `config.php` as needed.
+3. Make sure that the `/logs/` directory is writable if logging is enabled.
+4. Access `index.php` through your browser to start using the system.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Acknowledgement
+
+We sincerely appreciate the computational support provided by **VTEXS** through their **“Free VPS for Open Source”** program.  
+Their commitment to supporting open-source innovation is invaluable.
+
+---
+
+## 💖 Special Thanks
+
+本项目由 **VTEXS** 的「开源项目免费VPS计划」提供算力支持。  
+感谢 **VTEXS** 对开源社区的鼎力支持！
+
+---
+
+# 🔥 Quick Links
+
+- [Submit Issues](https://github.com/Jayzk707/Group-Join-System-)
+- [Pull Requests Welcome!](https://github.com/Jayzk707)
+
+---
 
 ---
 
@@ -102,3 +176,5 @@ We sincerely appreciate the computational support provided by **VTEXS** through 
 欢迎提出 Issue 或 Pull Request 共同完善！
 
 ---
+
+
